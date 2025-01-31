@@ -55,38 +55,41 @@
         document.addEventListener('webkitfullscreenchange', handleFullScreenChange);
         document.addEventListener('mozfullscreenchange', handleFullScreenChange);
         document.addEventListener('MSFullscreenChange', handleFullScreenChange);
-		
-	function toggleFullScreen() {
-		if (document.fullscreenElement) {
-			if (document.exitFullscreen) {
-				document.exitFullscreen();
-			if (document.webkitExitFullscreen) {
-				document.webkitExitFullscreen();
-			} else if (document.mozCancelFullScreen) {
-				document.mozCancelFullScreen();
-			} else if (document.msExitFullscreen) {
-				document.msExitFullscreen();
-			}
-			
-			} else {
-				if (uiContainer.requestFullscreen) {
-					uiContainer.requestFullscreen();
-				} else if (uiContainer.webkitRequestFullscreen) {
-					uiContainer.webkitRequestFullscreen();
-				} else if (uiContainer.mozRequestFullScreen) {
-					uiContainer.mozRequestFullScreen();
-				} else if (uiContainer.msRequestFullscreen) {
-					uiContainer.msRequestFullscreen();
-				}
-			}
-		}
-		
-		document.addEventListener('keydown', (event) => {
-			if (event.key === 'f' || event.key === 'F') {
-				toggleFullScreen();
-			}
-		});
-		
+        
+        
+    function toggleFullScreen() {
+        if (document.fullscreenElement) {
+            // Exit full-screen mode
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) { // Safari
+                document.webkitExitFullscreen();
+            } else if (document.mozCancelFullScreen) { // Firefox
+                document.mozCancelFullScreen();
+            } else if (document.msExitFullscreen) { // IE/Edge
+                document.msExitFullscreen();
+            }
+        } else {
+            // Enter full-screen mode
+            if (uiContainer.requestFullscreen) {
+                uiContainer.requestFullscreen();
+            } else if (uiContainer.webkitRequestFullscreen) { // Safari
+                uiContainer.webkitRequestFullscreen();
+            } else if (uiContainer.mozRequestFullScreen) { // Firefox
+                uiContainer.mozRequestFullScreen();
+            } else if (uiContainer.msRequestFullscreen) { // IE/Edge
+                uiContainer.msRequestFullscreen();
+            }
+        }
+    }
+
+    // Listen for the 'F' key to toggle full-screen mode
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'f' || event.key === 'F') {
+            toggleFullScreen();
+        }
+    });
+    
         video.addEventListener('leavepictureinpicture', () => {
             video.play();
         });

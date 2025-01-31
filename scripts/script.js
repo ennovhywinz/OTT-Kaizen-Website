@@ -21,7 +21,7 @@
             top: 10px;
             right: 10px;
             padding: 8px 12px;
-            background: #F1F1CE;
+            background: rgba(217, 217, 120, 0.7);
             color: black;
             border: none;
             border-radius: 8px;
@@ -42,6 +42,19 @@
                     });
                     
         uiContainer.appendChild(pipButton);
+        
+        function handleFullScreenChange() {
+            if (document.fullscreenElement) {
+                pipButton.style.display = 'none';
+            } else {
+                pipButton.style.display = 'block';
+            }
+        }
+        
+        document.addEventListener('fullscreenchange', handleFullScreenChange);
+        document.addEventListener('webkitfullscreenchange', handleFullScreenChange);
+        document.addEventListener('mozfullscreenchange', handleFullScreenChange);
+        document.addEventListener('MSFullscreenChange', handleFullScreenChange);
         
         video.addEventListener('leavepictureinpicture', () => {
             video.play();

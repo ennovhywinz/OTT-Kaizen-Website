@@ -1,4 +1,4 @@
-body {
+        body {
             font-family: Helvetica, Arial, sans-serif;
             display: flex;
             flex-direction: column;
@@ -9,7 +9,7 @@ body {
         }
 
         h1 {
-            color: #F5F5DC;
+            color: #D9D978;
             font-size: 2rem;
             margin: 5px 0;
             text-align: center;
@@ -80,7 +80,7 @@ body {
         .tile:hover {
             box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
             transform: scale(1.05);
-            border-color: #E2E299;
+            border-color: #D9D978;
         }
 
         .tile span {
@@ -100,7 +100,7 @@ body {
         }
 
         .tile.active {
-            border-color: #E2E299;
+            border-color: #D9D978;
         }
 
         .navigation-buttons {
@@ -110,7 +110,7 @@ body {
         }
 
         .navigation-button {
-            background-color: #F5F5DC;
+            background-color:  #D9D978;
             color: black;
             padding: 10px 20px;
             border-radius: 30px;
@@ -121,7 +121,7 @@ body {
         }
 
         .navigation-button:hover {
-            background-color: #C0C0B2;
+            background-color: #ECECBA;
         }
         .menu-btn {
             position: fixed;
@@ -129,8 +129,8 @@ body {
             left: 15px;
             width: 40px;
             height: 40px;
-            background: #444;
-            color: white;
+            background: #D9D978;
+            color: black;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -145,7 +145,7 @@ body {
             left: 15px;
             width: 180px;
             height: 180px;
-            background: #444;
+            background: #D9D978;
             border-radius: 12px;
             display: flex;
             flex-direction: column;
@@ -163,7 +163,7 @@ body {
             transform: scale(1);
         }
         .menu-box a {
-            color: white;
+            color: black;
             text-decoration: none;
             font-size: 16px;
             margin: 8px 0;

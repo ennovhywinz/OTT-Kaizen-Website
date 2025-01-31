@@ -15,7 +15,7 @@
         
         const pipButton = document.createElement('button');
         pipButton.classList.add('shaka-pip-button');
-        pipButton.innerHTML = '<img src="https://i.imgur.com/sbtYsFs.png">';
+        pipButton.innerHTML = 'PiP';
         pipButton.style.cssText = `
             position: absolute;
             top: 10px;

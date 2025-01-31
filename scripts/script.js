@@ -21,8 +21,8 @@
             top: 10px;
             right: 10px;
             padding: 8px 12px;
-            background: rgba(0, 0, 0, 0.8);
-            color: white;
+            background: #ECECBA;
+            color: black;
             border: none;
             border-radius: 8px;
             cursor: pointer;

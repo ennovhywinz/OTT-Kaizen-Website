@@ -1,0 +1,174 @@
+body {
+            font-family: Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #141414;
+        }
+
+        h1 {
+            color: #F5F5DC;
+            font-size: 2rem;
+            margin: 5px 0;
+            text-align: center;
+        }
+
+        #video-container {
+            width: 800px;
+            height: 450px;
+            margin-top: 20px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            outline: none;
+        }
+
+        #channel-selector {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        @media (max-width: 768px) {
+            #channel-selector {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            #video-container {
+                width: 100%;
+                height: calc(100vw * 9 / 16);
+            }
+        }
+
+        .tile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+            padding-top: 100%;
+            cursor: pointer;
+            border: 2px solid #A4A4A4;
+            border-radius: 12px;
+            background-color: #000;
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+        }
+
+        .tile img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+        }
+
+        .tile:hover {
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+            border-color: #E2E299;
+        }
+
+        .tile span {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            font-size: 10px;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .tile:hover span {
+            opacity: 1;
+        }
+
+        .tile.active {
+            border-color: #E2E299;
+        }
+
+        .navigation-buttons {
+            display: flex;
+            margin-top: 20px;
+            gap: 15px;
+        }
+
+        .navigation-button {
+            background-color: #F5F5DC;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .navigation-button:hover {
+            background-color: #C0C0B2;
+        }
+        .menu-btn {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            width: 40px;
+            height: 40px;
+            background: #444;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            border-radius: 10%;
+            cursor: pointer;
+            z-index: 100;
+        }
+        .menu-box {
+            position: fixed;
+            top: 65px;
+            left: 15px;
+            width: 180px;
+            height: 180px;
+            background: #444;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            transform: scale(0.8);
+            z-index: 99;
+        }
+        .menu-box.show {
+            opacity: 1;
+            visibility: visible;
+            transform: scale(1);
+        }
+        .menu-box a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 8px 0;
+            transition: color 0.2s;
+        }
+        .menu-box a:hover {
+            color: #F5F5DC;
+        }

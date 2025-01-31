@@ -1,4 +1,4 @@
-function toggleMenu() {
+        function toggleMenu() {
             document.getElementById("menu").classList.toggle("show");
         }
 
@@ -8,12 +8,17 @@ function toggleMenu() {
             const player = new shaka.Player(video);
             const ui = new shaka.ui.Overlay(player, uiContainer, video);
         
+        const config = {
+            'overflowMenuButtons' : ['quality', 'language', 'captions', 'playback_rate', 'cast']
+        }
+        ui.configure(config)
+        
         const pipButton = document.createElement('button');
         pipButton.classList.add('shaka-pip-button');
         pipButton.innerHTML = 'PiP';
         pipButton.style.cssText = `
             position: absolute;
-            bottom: 10px;
+            top: 10px;
             right: 10px;
             padding: 8px 12px;
             background: rgba(0, 0, 0, 0.8);
@@ -69,6 +74,12 @@ function toggleMenu() {
                 img: "https://i.imgur.com/yukSStN.png",
                 name: "TEST",
                 key: "2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d"
+            },
+            {
+                src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd",
+                img: "https://i.imgur.com/yukSStN.png",
+                name: "TEST",
+                key: "53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd"
             },
             {
                 src: "https://jungotvstream-chanall.akamaized.net/jungotv/hallypop/stream.m3u8",

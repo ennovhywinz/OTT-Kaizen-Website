@@ -1,4 +1,4 @@
-       body {
+        body {
             font-family: Helvetica, Arial, sans-serif;
             display: flex;
             flex-direction: column;
@@ -10,18 +10,16 @@
 
         h1 {
             color: #D9D978;
-            font-size: 1rem;
-            margin: -2px;
-            left: 50px;
+            font-size: 2rem;
+            margin: 5px 0;
             text-align: center;
-            position: fixed;
         }
 
         #video-container {
-            width: 704px;
-            height: 396px;
-            margin-top: 30px;
-            border-radius: 10px;
+            width: 800px;
+            height: 450px;
+            margin-top: 20px;
+            border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 0 20px rgba(217, 217, 0, 0.5);
             position: relative;
@@ -38,7 +36,7 @@
             display: grid;
             grid-template-columns: repeat(6, 1fr);
             gap: 10px;
-            margin-top: 15px;
+            margin-top: 20px;
             width: 80%;
             max-width: 800px;
         }
@@ -48,9 +46,8 @@
                 grid-template-columns: repeat(4, 1fr);
             }
             #video-container {
-                width: 320px;
-                height: 180px;
-                margin-top: 35px;
+                width: 100%;
+                height: calc(100vw * 9 / 16);
             }
         }
 
@@ -60,9 +57,8 @@
             align-items: center;
             justify-content: center;
             position: relative;
-            margin: 2px;
-            width: 90%;
-            padding-top: 90%;
+            width: 100%;
+            padding-top: 100%;
             cursor: pointer;
             border: 2px solid #A4A4A4;
             border-radius: 12px;
@@ -76,8 +72,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 55%;
-            height: 55%;
+            width: 90%;
+            height: 90%;
             object-fit: contain;
         }
 
@@ -107,37 +103,18 @@
             border-color: #D9D978;
         }
 
-        @media (orientation: portrait) {
-            .tile span {
-                display: none;
-            }
-            .tile img {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 80%;
-                height: 80%;
-                object-fit: contain;
-            }
-            .tile:hover span {
-                opacity: 1;
-            }
-        }
-
         .navigation-buttons {
             display: flex;
-            margin-top: 10px;
-            gap: 10px;
+            margin-top: 20px;
+            gap: 15px;
         }
 
         .navigation-button {
             background-color: #D9D978;
             color: black;
-            padding: 8px 15px;
+            padding: 10px 20px;
             border-radius: 30px;
-            font-size: 21px;
-            font-weight: bold;
+            font-size: 14px;
             cursor: pointer;
             border: none;
             transition: background-color 0.3s ease;
@@ -146,30 +123,28 @@
         .navigation-button:hover {
             background-color: #ECECBA;
         }
-
         .menu-btn {
             position: fixed;
             top: 15px;
             left: 15px;
-            width: 25px;
-            height: 25px;
+            width: 40px;
+            height: 40px;
             background: #D9D978;
             color: black;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 15px;
+            font-size: 24px;
             border-radius: 10%;
             cursor: pointer;
             z-index: 100;
         }
-
         .menu-box {
             position: fixed;
-            top: 45px;
+            top: 65px;
             left: 15px;
-            width: 175px;
-            height: 175px;
+            width: 180px;
+            height: 180px;
             background: #D9D978;
             border-radius: 12px;
             display: flex;
@@ -182,22 +157,18 @@
             transform: scale(0.8);
             z-index: 99;
         }
-
         .menu-box.show {
             opacity: 1;
             visibility: visible;
             transform: scale(1);
         }
-
         .menu-box a {
             color: black;
             text-decoration: none;
             font-size: 16px;
             margin: 8px 0;
             transition: color 0.2s;
-            cursor: pointer;
         }
-
         .menu-box a:hover {
             color: #F5F5DC;
         }

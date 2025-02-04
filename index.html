@@ -1,40 +1,175 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lovelyz.</title>
-    <link rel="icon" type="image/png" href="https://i.imgur.com/yukSStN.png">
-    <script src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.5.0/shaka-player.compiled.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.5.0/shaka-player.ui.js"></script>
-    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/shaka-player/4.5.0/controls.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Login | Lovelyz IPTV.</title>
+    <link rel="icon" type="image/png" href="images/yukSStN.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(217, 217, 120, 0.5);
+            text-align: center;
+            width: 300px;
+        }
+
+        h2 {
+            color: #D9D978;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #D9D978;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        
+        a {
+            color: #D9D978;
+            margin-bottom: 15px;
+        }
+        
+        a:hover {
+            color: #ECECBA;
+            margin-bottom: 15px;
+        }
+        
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #D9D978;
+            background: #333;
+            color: white;
+        }
+
+        .password-container {
+            position: relative;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .toggle-password-btn {
+            position: absolute;
+            left: 240px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #D9D978;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 12px;
+            padding: 0;
+            width: auto;
+            height: auto;
+            line-height: 1;
+        }
+        
+        .toggle-password-btn:hover {
+            background-color: rgba(217, 217, 120, 0.2);
+        }
+
+        button {
+            background-color: #D9D978;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #ECECBA;
+        }
+
+        .error {
+            color: red;
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
 </head>
 <body>
-    
-    <div class="menu-btn" onclick="toggleMenu()">☰</div>
 
-    <div class="menu-box" id="menu">
-        <a href="https://phcorner.net/members/ning-yizhou.1948144/">PHCorner</a>
-        <a href="https://t.me/aeningz00">Telegram</a>
-	<a href="https://www.facebook.com/rickynakamura05">Facebook</a>
-	<a href="https://www.youtube.com/@aeningz00">YouTube</a>
-        <a href="https://i.imgur.com/GhEnhJq.png">GCash QR (Support!)</a>
-    </div>
-    
-    <h1><i>L O V E L Y Z</i></h1>
-    
-    <div id="video-container">
-        <video id="video-player" autoplay></video>
+    <div class="login-container">
+        <h2>Welcome to LovelyzIPTV!</h2>
+        <p>Please ask <a href="https://phcorner.net/members/ning-yizhou.1948144/">Ning Yizhou</a> on PHcorner for username and password access!</p>
+        <input type="text" id="username" placeholder="Username">
+        
+        <div class="password-container">
+            <input type="password" id="password" placeholder="Password">
+            <button type="button2" class="toggle-password-btn" onclick="togglePassword()">Show</button>
+        </div>
+        
+        <button onclick="login()">Login</button>
+        <p class="error" id="error-message">Invalid credentials!</p>
     </div>
 
-    <div id="channel-selector"></div>
+    <script>
+        if (localStorage.getItem('loggedIn') === 'true') {
+            window.location.href = 'main.html';
+        }
 
-    <div class="navigation-buttons">
-        <button class="navigation-button" id="prev-page">🡸</button>
-        <button class="navigation-button" id="next-page">🡺</button>
-    </div>
-<script src="/scripts/script.js"></script>
-</body>
-</html>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                login();
+            }
+        });
+
+        function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (!username || !password) {
+                document.getElementById('error-message').textContent = "Please fill in both username and password!";
+                document.getElementById('error-message').style.display = 'block';
+                return;
+            }
+
+            const validCredentials = [
+                { username: "admin", password: "aa" },
+                { username: "user102302", password: "lovelyziptv" }
+            ];
+            
+            const isValid = validCredentials.some(cred => cred.username === username && cred.password === password);
+
+            if (isValid) {
+                localStorage.setItem('loggedIn', 'true');
+                window.location.href = 'main.html';
+            } else {
+                document.getElementById('error-message').textContent = "Invalid credentials!";
+                document.getElementById('error-message').style.display = 'block';
+            }
+        }
+
+        function togglePassword() {
+            const passwordField = document.getElementById('password');
+            const toggleButton = document.querySelector('.toggle-password-btn');
+            
+            if (passwordField.type === 'password') {
+                passwordField.type = 'text';
+                toggleButton.textContent = 'Hide';
+            } else {
+                passwordField.type = 'password';
+                toggleButton.textContent = 'Show';
+            }
+        }
+    </script>
+
+
+
+</body></html>

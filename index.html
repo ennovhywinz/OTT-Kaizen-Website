@@ -1,3 +1,174 @@
-<script>
-document.write(unescape('%3C%21DOCTYPE%20html%3E%3Chtml%20lang%3D%22en%22%3E%3Chead%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22UTF-8%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1.0%22%3E%0A%20%20%20%20%3Ctitle%3ELogin%20%7C%20TV%20kaizen%3C/title%3E%0A%20%20%20%20%3Clink%20rel%3D%22icon%22%20type%3D%22image/png%22%20href%3D%22images/yukSStN.png%22%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20body%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-family%3A%20Arial%2C%20sans-serif%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-color%3A%20%23141414%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20justify-content%3A%20center%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20height%3A%20100vh%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin%3A%200%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20.login-container%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20background%3A%20%23222%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding%3A%2020px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-radius%3A%2010px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20box-shadow%3A%200px%200px%2015px%20rgba%28217%2C%20217%2C%20120%2C%200.5%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20width%3A%20300px%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20h2%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23D9D978%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%2015px%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20p%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23D9D978%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%2015px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20bold%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%2012px%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20a%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23D9D978%3B%0A%20%20%20%
-</script>
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | TV kaizen</title>
+    <link rel="icon" type="image/png" href="images/yukSStN.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(217, 217, 120, 0.5);
+            text-align: center;
+            width: 300px;
+        }
+
+        h2 {
+            color: #D9D978;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #D9D978;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        
+        a {
+            color: #D9D978;
+            margin-bottom: 15px;
+        }
+        
+        a:hover {
+            color: #ECECBA;
+            margin-bottom: 15px;
+        }
+        
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #D9D978;
+            background: #333;
+            color: white;
+        }
+
+        .password-container {
+            position: relative;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .toggle-password-btn {
+            position: absolute;
+            left: 240px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #D9D978;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 12px;
+            padding: 0;
+            width: auto;
+            height: auto;
+            line-height: 1;
+        }
+        
+        .toggle-password-btn:hover {
+            background-color: rgba(217, 217, 120, 0.2);
+        }
+
+        button {
+            background-color: #D9D978;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #ECECBA;
+        }
+
+        .error {
+            color: red;
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Welcome to TV Kaizen!</h2>
+        <p>Please contact <a href="https://facebook.com/eldersky">Herwin</a> on Facebook for username and password access!</p>
+        <input type="text" id="username" placeholder="Username">
+        
+        <div class="password-container">
+            <input type="password" id="password" placeholder="Password">
+            <button type="button2" class="toggle-password-btn" onclick="togglePassword()">Show</button>
+        </div>
+        
+        <button onclick="login()">Login</button>
+        <p class="error" id="error-message">Invalid credentials!</p>
+    </div>
+
+    <script>
+        if (localStorage.getItem('loggedIn') === 'true') {
+            window.location.href = 'main.html';
+        }
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                login();
+            }
+        });
+
+        function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (!username || !password) {
+                document.getElementById('error-message').textContent = "Please fill in both username and password!";
+                document.getElementById('error-message').style.display = 'block';
+                return;
+            }
+
+            const validCredentials = [
+                { username: "admin", password: "aa" }
+            ];
+            
+            const isValid = validCredentials.some(cred => cred.username === username && cred.password === password);
+
+            if (isValid) {
+                localStorage.setItem('loggedIn', 'true');
+                window.location.href = 'main.html';
+            } else {
+                document.getElementById('error-message').textContent = "Invalid credentials!";
+                document.getElementById('error-message').style.display = 'block';
+            }
+        }
+
+        function togglePassword() {
+            const passwordField = document.getElementById('password');
+            const toggleButton = document.querySelector('.toggle-password-btn');
+            
+            if (passwordField.type === 'password') {
+                passwordField.type = 'text';
+                toggleButton.textContent = 'Hide';
+            } else {
+                passwordField.type = 'password';
+                toggleButton.textContent = 'Show';
+            }
+        }
+    </script>
+
+
+
+</body></html>

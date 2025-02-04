@@ -105,69 +105,9 @@
 </head>
 <body>
 
-    <div class="login-container">
-        <h2>Welcome to TV Kaizen!</h2>
-        <p>Please contact <a href="https://facebook.com/eldersky">Herwin</a> on Facebook for username and password access!</p>
-        <input type="text" id="username" placeholder="Username">
-        
-        <div class="password-container">
-            <input type="password" id="password" placeholder="Password">
-            <button type="button2" class="toggle-password-btn" onclick="togglePassword()">Show</button>
-        </div>
-        
-        <button onclick="login()">Login</button>
-        <p class="error" id="error-message">Invalid credentials!</p>
-    </div>
-
     <script>
-        if (localStorage.getItem('loggedIn') === 'true') {
-            window.location.href = 'main.html';
-        }
-
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Enter') {
-                login();
-            }
-        });
-
-        function login() {
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-
-            if (!username || !password) {
-                document.getElementById('error-message').textContent = "Please fill in both username and password!";
-                document.getElementById('error-message').style.display = 'block';
-                return;
-            }
-
-            const validCredentials = [
-                { username: "admin", password: "aa" }
-            ];
-            
-            const isValid = validCredentials.some(cred => cred.username === username && cred.password === password);
-
-            if (isValid) {
-                localStorage.setItem('loggedIn', 'true');
-                window.location.href = 'main.html';
-            } else {
-                document.getElementById('error-message').textContent = "Invalid credentials!";
-                document.getElementById('error-message').style.display = 'block';
-            }
-        }
-
-        function togglePassword() {
-            const passwordField = document.getElementById('password');
-            const toggleButton = document.querySelector('.toggle-password-btn');
-            
-            if (passwordField.type === 'password') {
-                passwordField.type = 'text';
-                toggleButton.textContent = 'Hide';
-            } else {
-                passwordField.type = 'password';
-                toggleButton.textContent = 'Show';
-            }
-        }
-    </script>
+document.write(unescape('%3Cdiv%20class%3D%22login-container%22%3E%0A%20%20%20%20%20%20%20%20%3Ch2%3EWelcome%20to%20TV%20Kaizen%21%3C/h2%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EPlease%20contact%20%3Ca%20href%3D%22https%3A//facebook.com/eldersky%22%3EHerwin%3C/a%3E%20on%20Facebook%20for%20username%20and%20password%20access%21%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cinput%20type%3D%22text%22%20id%3D%22username%22%20placeholder%3D%22Username%22%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22password-container%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%20type%3D%22password%22%20id%3D%22password%22%20placeholder%3D%22Password%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cbutton%20type%3D%22button2%22%20class%3D%22toggle-password-btn%22%20onclick%3D%22togglePassword%28%29%22%3EShow%3C/button%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Cbutton%20onclick%3D%22login%28%29%22%3ELogin%3C/button%3E%0A%20%20%20%20%20%20%20%20%3Cp%20class%3D%22error%22%20id%3D%22error-message%22%3EInvalid%20credentials%21%3C/p%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%20%20%3Cscript%3E%0A%20%20%20%20%20%20%20%20if%20%28localStorage.getItem%28%27loggedIn%27%29%20%3D%3D%3D%20%27true%27%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20window.location.href%20%3D%20%27main.html%27%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20document.addEventListener%28%27keydown%27%2C%20function%28event%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20%28event.key%20%3D%3D%3D%20%27Enter%27%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20login%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%29%3B%0A%20%20%20%20%20%20%20%20function%20login%28%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20const%20username%20%3D%20document.getElementById%28%27username%27%29.value%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20const%20password%20%3D%20document.getElementById%28%27password%27%29.value%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20%28%21username%20%7C%7C%20%21password%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20
+</script>
 
 
 

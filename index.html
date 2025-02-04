@@ -141,7 +141,10 @@
             }
 
             const validCredentials = [
-                { username: "admin", password: "aa" }
+                <script>
+                document.write(unescape('%7B%20username%3A%20%22admin%22%2C%20password%3A%20%22aa%22%20%7D'));
+                </script>
+
             ];
             
             const isValid = validCredentials.some(cred => cred.username === username && cred.password === password);

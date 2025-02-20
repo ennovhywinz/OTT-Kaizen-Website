@@ -142,7 +142,7 @@
                 key: "92834ab4a7e1499b90886c5d49220e46:a7108d9a6cfcc1b7939eb111daf09ab3"
             },
             {
-                src: "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/truefm_tv.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/truefm_tv.mpd",
                 img: "https://i.imgur.com/U8L0Liq.png",
                 name: "TRUE FM TV",
                 key: "0559c95496d44fadb94105b9176c3579:40d8bb2a46ffd03540e0c6210ece57ce"
@@ -154,25 +154,25 @@
                 key: "6aab8f40536f4ea98e7c97b8f3aa7d4e:139aa5a55ade471faaddacc4f4de8807"
             },
             {
-                src: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_ptv4_sd.mpd",
                 img: "https://i.imgur.com/ycPz1Uc.png",
                 name: "PEOPLE'S TELEVISION",
                 key: "71a130a851b9484bb47141c8966fb4a3:ad1f003b4f0b31b75ea4593844435600"
             },
             {
-                src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/ibc13_sd.mpd",
                 img: "https://i.imgur.com/PwFOHQb.png",
                 name: "IBC 13",
                 key: "04e292bc99bd4ccba89e778651914254:ff0a62bdf8920ce453fe680330b563a5"
             },
             {
-                src: "https://qp-pldt-live-grp-05-prod.akamaized.net/out/u/bilyonaryoch.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/bilyonaryoch.mpd",
                 img: "https://i.imgur.com/Z5ZyJ8c.png",
                 name: "BILYONARYO CHANNEL",
                 key: "227ffaf09bec4a889e0e0988704d52a2:b2d0dce5c486891997c1c92ddaca2cd2"
             },
             {
-                src: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_a2z.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_a2z.mpd",
                 img: "https://i.imgur.com/DVSTY3w.png",
                 name: "A2Z",
                 key: "f703e4c8ec9041eeb5028ab4248fa094:c22f2162e176eee6273a5d0b68d19530"

@@ -148,7 +148,7 @@
                 key: "0559c95496d44fadb94105b9176c3579:40d8bb2a46ffd03540e0c6210ece57ce"
             },
             {
-                src: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_mptv.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_mptv.mpd",
                 img: "https://i.imgur.com/BMCnoRn.png",
                 name: "MEDIA PILIPINAS TV",
                 key: "6aab8f40536f4ea98e7c97b8f3aa7d4e:139aa5a55ade471faaddacc4f4de8807"

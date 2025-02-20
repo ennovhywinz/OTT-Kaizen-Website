@@ -166,7 +166,7 @@
                 key: "04e292bc99bd4ccba89e778651914254:ff0a62bdf8920ce453fe680330b563a5"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/bilyonaryoch.mpd",
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/bilyonaryoch.mpd",
                 img: "https://i.imgur.com/Z5ZyJ8c.png",
                 name: "BILYONARYO CHANNEL",
                 key: "227ffaf09bec4a889e0e0988704d52a2:b2d0dce5c486891997c1c92ddaca2cd2"

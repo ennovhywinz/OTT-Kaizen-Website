@@ -116,13 +116,7 @@
                 img: "https://i.imgur.com/IDCHfXm.png",
                 name: "RPTV",
                 key: "1917f4caf2364e6d9b1507326a85ead6:a1340a251a5aa63a9b0ea5d9d7f67595"		    
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd",
-                img: "https://i.imgur.com/kKuO7LD.png",
-                name: "SARI-SARI",
-                key: "0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d"
-            },
+            },          
             {
                 src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_buko_sd.mpd",
                 img: "https://i.imgur.com/Du6LQCi.png",

@@ -119,7 +119,7 @@
             }, 
 	    {
                 src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd",
-                img: "https://i.imgur.com/kKuO7LD.png",
+                img: "",
                 name: "SARI-SARI",
                 key: "0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d"
             },

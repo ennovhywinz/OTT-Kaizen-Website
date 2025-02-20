@@ -118,19 +118,19 @@
                 key: "1917f4caf2364e6d9b1507326a85ead6:a1340a251a5aa63a9b0ea5d9d7f67595"		    
             },
             {
-                src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd",
                 img: "https://i.imgur.com/kKuO7LD.png",
                 name: "SARI-SARI",
                 key: "0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d"
             },
             {
-                src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_buko_sd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_buko_sd.mpd",
                 img: "https://i.imgur.com/Du6LQCi.png",
                 name: "BUKO CH",
                 key: "d273c085f2ab4a248e7bfc375229007d:7932354c3a84f7fc1b80efa6bcea0615"
             },
             {
-                src: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/onenews_hd1.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/onenews_hd1.mpd",
                 img: "https://i.imgur.com/bmP06bk.png",
                 name: "ONE NEWS",
                 key: "d39eb201ae494a0b98583df4d110e8dd:6797066880d344422abd3f5eda41f45f"
@@ -196,7 +196,7 @@
                 key: "47c093e0c9fd4f80839a0337da3dd876:50547394045b3d047dc7d92f57b5fb33"
             },
             {
-                src: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_knowledgechannel.mpd",
                 img: "https://i.imgur.com/UIqEr2y.png",
                 name: "KNOWLEDGE CH",
                 key: "0f856fa0412b11edb8780242ac120002:783374273ef97ad3bc992c1d63e091e7"
@@ -229,43 +229,43 @@
                 key: "f40a52a3ac9b4702bdd5b735d910fd2f:5ce1bc7f06b494c276252b4d13c90e51"
             },
             {
-                src: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/tvup_prd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/tvup_prd.mpd",
                 img: "https://i.imgur.com/HhxOIJq.png",
                 name: "TVUP",
                 key: "83e813ccd4ca4837afd611037af02f63:a97c515dbcb5dcbc432bbd09d15afd41"
             },
             {
-                src: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd",
                 img: "https://i.imgur.com/rifinVV.png",
                 name: "UAAP VARSITY",
                 key: "95588338ee37423e99358a6d431324b9:6e0f50a12f36599a55073868f814e81e"
             },
             {
-                src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_dreamworktag.mpd",
                 img: "https://i.imgur.com/fh1Lg7b.png",
                 name: "DREAMWORKS (TAG)",
                 key: "564b3b1c781043c19242c66e348699c5:d3ad27d7fe1f14fb1a2cd5688549fbab"
             },
             {
-                src: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/pbo_sd.mpd",
                 img: "https://i.imgur.com/709Uy7N.png",
                 name: "PINOY BOX OFFICE",
                 key: "dcbdaaa6662d4188bdf97f9f0ca5e830:31e752b441bd2972f2b98a4b1bc1c7a1"
             },
             {
-                src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/viva_sd.mpd",
                 img: "https://i.imgur.com/8y3fc3F.png",
                 name: "VIVACINEMA",
                 key: "07aa813bf2c147748046edd930f7736e:3bd6688b8b44e96201e753224adfc8fb"
             },
             {
-                src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_tagalogmovie.mpd",
                 img: "https://i.imgur.com/ZbrvQpg.png",
                 name: "TAGALIZED MOVIE CHANNEL",
                 key: "96701d297d1241e492d41c397631d857:ca2931211c1a261f082a3a2c4fd9f91b"
             },
             {
-                src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tvnmovie.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_tvnmovie.mpd",
                 img: "https://i.imgur.com/e9vo9Z8.png",
                 name: "TVN MOVIES PINOY",
                 key: "2e53f8d8a5e94bca8f9a1e16ce67df33:3471b2464b5c7b033a03bb8307d9fa35"
@@ -283,7 +283,7 @@
                 key: "aa8aebe35ccc4541b7ce6292efcb1bfb:aab1df109d22fc5d7e3ec121ddf24e5f"
             },
             {
-                src: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/bloomberg_sd.mpd",
                 img: "https://i.imgur.com/pl4w2NN.png",
                 name: "BLOOMBERG",
                 key: "ef7d9dcfb99b406cb79fb9f675cba426:b24094f6ca136af25600e44df5987af4"
@@ -299,7 +299,7 @@
                 name: "RUSSIA TODAY"
             },
             {
-                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cnnhd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_cnnhd.mpd",
                 img: "https://i.imgur.com/UYpxXca.png",
                 name: "CNN",
                 key: "900c43f0e02742dd854148b7a75abbec:da315cca7f2902b4de23199718ed7e90"

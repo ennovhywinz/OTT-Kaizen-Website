@@ -100,10 +100,10 @@
         
         const channelData = [
             {
-                src: "http://143.44.136.111:6910/001/2/ch00000090990000001088/manifest.mpd",
+                src: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd",
                 img: "https://i.imgur.com/jsCBRq0.png",
                 name: "TV 5",
-                key: "http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00"
+                key: "2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d"
             },
             {
                 src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd",

@@ -124,7 +124,7 @@
                 key: "0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_buko_sd.mpd",
+                src: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_buko_sd.mpd",
                 img: "https://i.imgur.com/Du6LQCi.png",
                 name: "BUKO CH",
                 key: "d273c085f2ab4a248e7bfc375229007d:7932354c3a84f7fc1b80efa6bcea0615"

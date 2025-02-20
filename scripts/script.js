@@ -106,7 +106,7 @@
                 key: "2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d"
             },
             {
-                src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_onesports_hd.mpd",
                 img: "https://i.imgur.com/btiNwYt.png",
                 name: "ONE SPORTS",
                 key: "53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd"
@@ -136,7 +136,7 @@
                 key: "d39eb201ae494a0b98583df4d110e8dd:6797066880d344422abd3f5eda41f45f"
             },
             {
-                src: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/oneph_sd.mpd",
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/oneph_sd.mpd",
                 img: "https://i.imgur.com/9dMuFE1.png",
                 name: "ONE PH",
                 key: "92834ab4a7e1499b90886c5d49220e46:a7108d9a6cfcc1b7939eb111daf09ab3"

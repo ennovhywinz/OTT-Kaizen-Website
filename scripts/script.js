@@ -857,10 +857,10 @@
                 key: "322d06e9326f4753a7ec0908030c13d8:1e3e0ca32d421fbfec86feced0efefda"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cgnl_nba.mpd",
+                src: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/pl_nba.mpd",
                 img: "https://i.imgur.com/zmAm1HJ.png",
                 name: "NBA TV PHILIPPINES",
-                key: "c5e51f41ceac48709d0bdcd9c13a4d88:20b91609967e472c27040716ef6a8b9a"
+                key: "f36eed9e95f140fabbc88a08abbeafff:0125600d0eb13359c28bdab4a2ebe75a"
             },
             {
                 src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_tapsports.mpd",

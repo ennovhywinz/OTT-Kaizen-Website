@@ -100,7 +100,7 @@
         
         const channelData = [
             {
-                src: "http://143.44.136.111:6910/001/2/ch00000090990000001088/manifest.mpd?virtualDomain=001.live_hls.zte.com",
+                src: "http://143.44.136.111:6910/001/2/ch00000090990000001088/manifest.mpd",
                 img: "https://i.imgur.com/jsCBRq0.png",
                 name: "TV 5",
                 key: "http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00"

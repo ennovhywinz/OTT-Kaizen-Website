@@ -100,7 +100,7 @@
         
         const channelData = [
             {
-                src: "http://ott.udptv.net/stream/iptv/tv5hd/master.m3u8?u=civ3&p=62278b4ff378172012f0fa4b0950ca4a6602b07485651181385d4616936cf859",
+                src: "https://raw.githubusercontent.com/ennovhywinz/test/refs/heads/main/M3U8/TV5.m3u8",
                 img: "https://i.imgur.com/jsCBRq0.png",
                 name: "TV5"
             },

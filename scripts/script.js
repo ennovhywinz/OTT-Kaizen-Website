@@ -100,10 +100,9 @@
         
         const channelData = [
             {
-                src: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd",
+                src: "http://ott.udptv.net/stream/iptv/tv5hd/master.m3u8?u=civ3&p=62278b4ff378172012f0fa4b0950ca4a6602b07485651181385d4616936cf859",
                 img: "https://i.imgur.com/jsCBRq0.png",
-                name: "TV5",
-                key: "2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d"
+                name: "TV5"
             },
             {
                 src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd",

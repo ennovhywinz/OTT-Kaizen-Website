@@ -213,14 +213,15 @@
                 key: "c95ed4c44b0b4f7fa1c6ebbbbaab21a1:47635b8e885e19f2ccbdff078c207058"
             },
             {
-                src: "https://jungotvstream-chanall.akamaized.net/jungotv/jungopinoytv/stream.m3u8",
+                src: "https://jungotvstream.chanall.tv/jungotv/jungopinoytv/stream.m3u8",
                 img: "https://i.imgur.com/FjAjdL0.png",
                 name: "JUNGO PINOY TV"
             },
             {
-                src: "https://jungotvstream-chanall.akamaized.net/jungotv/screamflix/stream.m3u8",
-                img: "https://i.imgur.com/mZexD6Z.png",
-                name: "SCREAMFLIX"
+                src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd",
+                img: "https://tapdmv.ovationproductionsmanila.com/logo-TapActionFlix-2021-B.png",
+                name: "TAP ACTION FLIX",
+		key: "bee1066160c0424696d9bf99ca0645e3:f5b72bf3b89b9848de5616f37de040b7"
             },
             {
                 src: "https://jungotvstream-chanall.akamaized.net/jungotv/hallypop/stream.m3u8",

@@ -111,6 +111,11 @@
                 name: "ONE SPORTS",
                 key: "53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd"
             },
+	    {
+                src: "https://gma7.jamesbenavides617.workers.dev/master.m3u8",
+                img: "https://th.bing.com/th/id/OIP.aWHBusnumCQ8MKT_r2jXFAHaFj?rs=1&pid=ImgDetMain",
+                name: "GMA"
+            },
             {
                 src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
                 img: "https://i.imgur.com/IDCHfXm.png",

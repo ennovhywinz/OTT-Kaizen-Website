@@ -201,7 +201,7 @@
                 key: "47c093e0c9fd4f80839a0337da3dd876:50547394045b3d047dc7d92f57b5fb33"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_knowledgechannel.mpd",
+                src: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd",
                 img: "https://i.imgur.com/UIqEr2y.png",
                 name: "KNOWLEDGE CH",
                 key: "0f856fa0412b11edb8780242ac120002:783374273ef97ad3bc992c1d63e091e7"

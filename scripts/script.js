@@ -224,7 +224,7 @@
 		key: "bee1066160c0424696d9bf99ca0645e3:f5b72bf3b89b9848de5616f37de040b7"
             },
             {
-                src: "https://jungotvstream-chanall.akamaized.net/jungotv/hallypop/stream.m3u8",
+                src: "https://jungotvstream.chanall.tv/jungotv/hallypop/stream.m3u8",
                 img: "https://i.imgur.com/gYYYebi.png",
                 name: "HALLYPOP"
             },

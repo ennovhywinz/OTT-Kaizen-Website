@@ -312,7 +312,7 @@
             },
             {
                 src: "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8",
-                img: "https://i.imgur.com/foW8GA2.png",
+                img: "",
                 name: "CNBC"
             },
             {
@@ -327,7 +327,7 @@
             },
             {
                 src: "https://cdn09jtedge.indihometv.com/joss/134/euronews/index.m3u8",
-                img: "https://i.imgur.com/3262tTo.png",
+                img: "",
                 name: "EURONEWS"
             },
             {
@@ -336,7 +336,7 @@
                 name: "DEUTSCHE WELLE"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_channelnewsasia.mpd",
+                src: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/dr_channelnewsasia.mpd",
                 img: "https://i.imgur.com/NWP3n1k.png",
                 name: "CNA",
                 key: "b259df9987364dd3b778aa5d42cb9acd:753e3dba96ab467e468269e7e33fb813"

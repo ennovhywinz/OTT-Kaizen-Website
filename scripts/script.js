@@ -135,7 +135,7 @@
                 key: "d273c085f2ab4a248e7bfc375229007d:7932354c3a84f7fc1b80efa6bcea0615"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/onenews_hd1.mpd",
+                src: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/onenews_hd1.mpd",
                 img: "https://i.imgur.com/bmP06bk.png",
                 name: "ONE NEWS",
                 key: "d39eb201ae494a0b98583df4d110e8dd:6797066880d344422abd3f5eda41f45f"

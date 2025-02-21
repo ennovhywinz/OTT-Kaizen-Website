@@ -456,7 +456,7 @@
                 key: "78ab64fa90f137a697743b5dc27b2f96:de4d31c7fc6005ede28abab2a0720a9f"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/hits_hd1.mpd",
+                src: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
                 img: "https://i.imgur.com/YeqyD9W.png",
                 name: "HITS",
                 key: "dac605bc197e442c93f4f08595a95100:975e27ffc1b7949721ee3ccb4b7fd3e5"

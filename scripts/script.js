@@ -159,7 +159,7 @@
                 key: "6aab8f40536f4ea98e7c97b8f3aa7d4e:139aa5a55ade471faaddacc4f4de8807"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_ptv4_sd.mpd",
+                src: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_ptv4_sd.mpd",
                 img: "https://i.imgur.com/ycPz1Uc.png",
                 name: "PEOPLE'S TELEVISION",
                 key: "71a130a851b9484bb47141c8966fb4a3:ad1f003b4f0b31b75ea4593844435600"

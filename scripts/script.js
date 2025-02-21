@@ -235,7 +235,7 @@
                 key: "f40a52a3ac9b4702bdd5b735d910fd2f:5ce1bc7f06b494c276252b4d13c90e51"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/tvup_prd.mpd",
+                src: "https://qp-pldt-live-grp-9-prod.akamaized.net/out/u/tvup_prd.mpd",
                 img: "https://i.imgur.com/HhxOIJq.png",
                 name: "TVUP",
                 key: "83e813ccd4ca4837afd611037af02f63:a97c515dbcb5dcbc432bbd09d15afd41"

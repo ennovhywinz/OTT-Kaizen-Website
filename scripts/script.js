@@ -422,25 +422,25 @@
             },
             {
                 src: "https://ott.zapitv.com/live/eds_c2/axn_white/dash_live_enc/axn_white.mpd",
-                img: "https://i.imgur.com/UJUT6j5.png",
+                img: "",
                 name: "AXN MOVIES",
                 key: "f9e4be09926c262effa2b5381ae3553d:d630e04e0c5e3f98dc38840be1c1dd4c"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_warnertvhd.mpd",
+                src: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd",
                 img: "https://i.imgur.com/Hy26eiy.png",
                 name: "WARNER TV",
                 key: "4503cf86bca3494ab95a77ed913619a0:afc9c8f627fb3fb255dee8e3b0fe1d71"
             },
             {
                 src: "https://ott.zapitv.com/live/eds_c2/calle_13/dash_live_enc/calle_13.mpd",
-                img: "https://i.imgur.com/0uNnwpU.png",
+                img: "",
                 name: "CALLE 13",
                 key: "6ae50bb56203f2f3875e3ee78efab1a5:f22429107ea7806f54902bb2926c8872"
             },
             {
                 src: "https://ott.zapitv.com/live/eds_c2/syfy/dash_live_enc/syfy.mpd",
-                img: "https://i.imgur.com/h8c0Qug.png",
+                img: "",
                 name: "SYFY",
                 key: "95ec1e26e80c38258a30101d06c8cbf7:0d0df5189256c0bf32c0cd0976bac5bd"
             },

@@ -336,7 +336,7 @@
                 name: "DEUTSCHE WELLE"
             },
             {
-                src: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/dr_channelnewsasia.mpd",
+                src: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_channelnewsasia.mpd",
                 img: "https://i.imgur.com/NWP3n1k.png",
                 name: "CNA",
                 key: "b259df9987364dd3b778aa5d42cb9acd:753e3dba96ab467e468269e7e33fb813"
@@ -362,61 +362,63 @@
                 name: "FRANCE 24"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/kix_hd1.mpd",
+                src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/kix_hd1.mpd",
                 img: "https://i.imgur.com/XDQMCio.png",
                 name: "KIX",
                 key: "a8d5712967cd495ca80fdc425bc61d6b:f248c29525ed4c40cc39baeee9634735"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_thrill_sd.mpd",
+                src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd",
                 img: "https://i.imgur.com/LCX2guc.png",
                 name: "THRILL",
                 key: "928114ffb2394d14b5585258f70ed183:a82edc340bc73447bac16cdfed0a4c62"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_hbohd.mpd",
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbohd.mpd",
                 img: "https://i.imgur.com/fHBIgs6.png",
                 name: "HBO",
                 key: "d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_cinemax.mpd",
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_cinemax.mpd",
                 img: "https://i.imgur.com/YomkvVa.png",
                 name: "CINEMAX",
                 key: "b207c44332844523a3a3b0469e5652d7:fe71aea346db08f8c6fbf0592209f955"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_hbohits.mpd",
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbohits.mpd",
                 img: "https://i.imgur.com/pZn9JHj.png",
                 name: "HBO HITS",
                 key: "b04ae8017b5b4601a5a0c9060f6d5b7d:a8795f3bdb8a4778b7e888ee484cc7a1"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_hbosign.mpd",
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbosign.mpd",
                 img: "https://i.imgur.com/3BOoqQn.png",
                 name: "HBO SIGNATURE",
                 key: "a06ca6c275744151895762e0346380f5:559da1b63eec77b5a942018f14d3f56f"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_hbofam.mpd",
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbofam.mpd",
                 img: "https://i.imgur.com/Zy3pvJV.png",
                 name: "HBO FAMILY",
                 key: "872910c843294319800d85f9a0940607:f79fd895b79c590708cf5e8b5c6263be"
             },
             {
                 src: "https://streaming.indihometv.com/atm/hlsv3/rock_entertainment/playlist.m3u8",
-                img: "https://i.imgur.com/Oh9rzNa.png",
+                img: "",
                 name: "ROCK ENTERTAINMENT"
             },
             {
                 src: "https://streaming.indihometv.com/atm/hlsv3/ROCK_ACTION/playlist.m3u8",
-                img: "https://i.imgur.com/Sum9qPu.png",
+                img: "",
                 name: "ROCK ACITON"
             },
             {
-                src: "https://streaming.indihometv.com/atm/hlsv3/axn/playlist.m3u8",
-                img: "https://i.imgur.com/tDbuoAU.png",
-                name: "AXN"
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_axn_sd.mpd",
+                img: "https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png",
+                name: "AXN",
+		key: "fd5d928f5d974ca4983f6e9295dfe410:3aaa001ddc142fedbb9d5557be43792f"
+		    
             },
             {
                 src: "https://ott.zapitv.com/live/eds_c2/axn_white/dash_live_enc/axn_white.mpd",

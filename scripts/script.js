@@ -165,7 +165,7 @@
                 key: "71a130a851b9484bb47141c8966fb4a3:ad1f003b4f0b31b75ea4593844435600"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/ibc13_sd.mpd",
+                src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd",
                 img: "https://i.imgur.com/PwFOHQb.png",
                 name: "IBC 13",
                 key: "04e292bc99bd4ccba89e778651914254:ff0a62bdf8920ce453fe680330b563a5"

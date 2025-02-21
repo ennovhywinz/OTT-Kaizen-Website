@@ -446,7 +446,7 @@
             },
             {
                 src: "https://streaming.indihometv.com/joss/130/studiouniversal/playlist.m3u8",
-                img: "https://i.imgur.com/Qx7X56p.png",
+                img: "",
                 name: "STUDIO UNIVERSAL"
             },
             {
@@ -467,9 +467,10 @@
                 name: "HITS MOVIES"
             },
             {
-                src: "https://streaming.indihometv.com/joss/134/hitsnow/playlist.m3u8",
+                src: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd",
                 img: "https://i.imgur.com/S3pNx8Gl.png",
-                name: "HITS NOW"
+                name: "HITS NOW",
+		key: "14439a1b7afc4527bb0ebc51cf11cbc1:92b0287c7042f271b266cc11ab7541f1"
             },
             {
                 src: "https://ott.zapitv.com/live/eds_c2/comedy_central/dash_live_enc/comedy_central.mpd",

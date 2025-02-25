@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOTFLIX IPTV</title>
+<style>
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+overflow: hidden; 
+}
+iframe {
+width: 100%;
+height: 100%;
+border: none; 
+}
+.disclaimer {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #fff;
+padding: 5px;
+border: 1px solid #ddd;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+z-index: 1000;
+display: block;
+}
+.accept-button {
+background-color: #4CAF50;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.accept-button:hover {
+background-color: #3e8e41;
+}
+</style>
+<script async="" src="js/adsbygoogle.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="disclaimer">
+<p>Disclaimer: The content provided through our service is hosted by external sources (iframe only) and is not controlled by us. We do not claim ownership or responsibility for the content.
+</p>
+<p>Note: We do not host or control the content and are not responsible for any copyright infringement or other intellectual property rights violations."</p>
+<p>If you believe that your intellectual property rights have been infringed upon or that the content belongs to you, please contact us at <a href="mailto:notflix111@gmail.com">notflix111@gmail.com</a>. </p>
+
+<p>We will respond promptly and take necessary actions to address your concerns.
+</p>
+<button class="accept-button" id="accept-button">I Understand and Accept</button>
+</div>
+<iframe src="" allow="encrypted-media *;" allowfullscreen="" id="iframe" style="display:none;"></iframe>
+
+<script>
+const acceptButton = document.getElementById('accept-button');
+const iframe = document.getElementById('iframe');
+const disclaimer = document.querySelector('.disclaimer');
+
+acceptButton.addEventListener('click', () => {
+disclaimer.style.display = 'none';
+iframe.src = "//iptv-libre-en7.pages.dev";
+iframe.style.display = 'block';
+});
+</script>
+
+</body></html>

@@ -1,9 +1,434 @@
-<html>
-<head>
-</head>
-<body>
+        if (localStorage.getItem('loggedIn') !== 'true') {
+            window.location.href = 'index.html';
+        }
 
-<script type="text/javascript">
-<!-- 
-eval(unescape('%66%75%6e%63%74%69%6f%6e%20%66%39%35%33%66%62%32%37%32%37%38%28%73%29%20%7b%0a%09%76%61%72%20%72%20%3d%20%22%22%3b%0a%09%76%61%72%20%74%6d%70%20%3d%20%73%2e%73%70%6c%69%74%28%22%32%35%30%32%32%30%38%31%22%29%3b%0a%09%73%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%30%5d%29%3b%0a%09%6b%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%31%5d%20%2b%20%22%35%39%31%37%33%39%22%29%3b%0a%09%66%6f%72%28%20%76%61%72%20%69%20%3d%20%30%3b%20%69%20%3c%20%73%2e%6c%65%6e%67%74%68%3b%20%69%2b%2b%29%20%7b%0a%09%09%72%20%2b%3d%20%53%74%72%69%6e%67%2e%66%72%6f%6d%43%68%61%72%43%6f%64%65%28%28%70%61%72%73%65%49%6e%74%28%6b%2e%63%68%61%72%41%74%28%69%25%6b%2e%6c%65%6e%67%74%68%29%29%5e%73%2e%63%68%61%72%43%6f%64%65%41%74%28%69%29%29%2b%2d%37%29%3b%0a%09%7d%0a%09%72%65%74%75%72%6e%20%72%3b%0a%7d%0a'));
-eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%66%39%35%33%66%62%32%37%32%37%38%28%27') + '%73%6a%25%2a%70%77%6c%6d%7a%5b%7c%75%70%6b%69%6e%30%6d%6d%7d%55%72%6d%73%2c%27%70%71%6c%6b%6f%6a%56%70%27%31%20%2b%4d%47%20%2c%7e%7a%7d%6a%2b%39%26%85%17%18%24%20%25%22%24%26%21%22%2e%26%20%24%77%73%72%69%73%7d%34%75%73%63%69%7c%73%7f%76%32%6d%7c%6f%6c%21%41%2e%2f%77%76%62%6f%78%37%6a%78%75%75%2b%4b%15%16%24%2e%24%20%25%22%24%26%82%11%18%15%16%24%2e%24%20%25%22%24%26%6b%79%7c%6b%7c%73%7f%76%20%71%73%6d%77%7a%7e%26%31%20%81%1d%12%17%12%7f%6f%7b%7c%75%7f%74%5d%78%7f%7a%6f%6c%69%36%6b%75%69%61%78%28%33%4b%17%16%12%15%70%77%6c%6d%7a%5b%7c%75%70%6b%69%6e%30%69%72%6a%6d%70%2e%37%41%1d%12%17%12%7b%73%74%6d%73%77%34%74%75%63%6b%7c%72%73%76%34%7f%69%7e%72%6f%69%65%2c%29%72%70%68%6d%79%30%66%7a%73%70%27%33%45%16%14%24%26%21%22%2e%26%20%24%8d%17%16%25%22%24%26%21%22%2e%26%13%12%2e%24%20%25%22%24%26%21%75%64%26%28%7d%79%76%6c%74%7b%36%6e%76%7f%72%77%7e%83%2e%2e%2a%25%7b%73%74%6d%73%77%34%68%73%73%78%71%7b%85%36%76%7a%7f%66%5b%7c%6b%72%6f%37%25%87%17%10%16%15%77%71%72%68%7f%7d%32%6d%75%79%7a%70%7c%89%34%70%7f%73%6c%5d%79%6d%78%6d%29%2b%7c%6d%79%59%72%6b%7c%6e%2b%30%26%73%79%7a%72%34%24%77%73%72%69%73%7d%34%75%73%63%69%7c%73%7f%76%32%6d%7c%6f%6c%36%47%1d%10%17%13%77%73%72%69%73%7d%34%70%70%7e%77%70%79%72%6b%7c%6e%22%47%26%6b%79%7c%6b%7c%73%7f%76%28%32%22%81%15%17%15%19%7f%77%76%62%75%79%37%6a%73%7b%7d%73%70%81%32%74%75%79%68%58%7e%6b%7a%6a%2a%27%74%6b%7d%53%78%6f%79%69%2d%32%21%70%75%72%74%30%2e%7d%77%77%6e%75%7f%33%76%7f%6b%6f%78%79%75%72%37%6a%7a%6d%6b%35%4b%15%16%13%19%87%45%16%14%13%85%12%14%1d%10%20%24%2e%24%20%25%22%24%6c%7a%70%63%7a%77%75%7c%24%7c%74%6b%6d%72%6a%51%65%74%7b%2c%39%24%85%16%14%24%26%21%22%2e%26%20%24%2e%24%20%25%6e%75%6b%7a%71%65%74%7c%36%67%6f%7c%4e%76%6f%75%6a%70%72%48%87%53%62%2c%2e%76%69%76%7d%2f%35%3c%6b%74%6b%73%79%54%72%7f%78%34%7d%73%67%6f%74%6f%26%2a%7d%6d%73%7d%28%36%47%1d%10%20%24%2e%24%20%25%22%24%85%12%14%1d%10%20%24%2e%24%20%25%22%24%6a%70%6f%75%75%6b%76%72%36%6f%69%6e%4f%7c%6a%70%72%52%77%79%72%6f%72%6e%7c%2c%2f%4d%53%5d%4b%71%76%72%6f%72%79%56%75%69%6d%69%62%2f%34%24%61%79%87%77%6f%24%6c%7a%70%63%7a%77%75%7c%24%28%32%22%81%15%17%22%2e%26%20%24%2e%24%20%25%22%24%26%6c%73%7c%7b%7c%24%74%73%6c%6e%73%24%45%21%6e%7f%6b%7b%77%65%76%7c%37%6b%6f%7a%4a%76%65%75%6b%76%72%4a%87%52%6e%2c%2f%7b%75%62%6d%71%37%7e%70%6f%82%69%7a%2f%36%47%1d%10%20%24%2e%24%20%25%22%24%26%21%22%2e%6b%71%76%73%78%20%7e%75%49%77%73%7e%61%71%72%6f%70%24%43%25%6e%75%6b%7a%71%65%74%7c%36%67%6f%7c%4e%76%6f%75%6a%70%72%48%87%53%62%2c%29%7f%75%68%6d%70%31%63%77%72%78%61%73%72%6e%7c%2d%31%44%11%18%26%20%24%2e%24%20%25%22%24%26%21%22%63%77%72%79%72%24%70%71%6d%83%6d%7f%22%4d%26%72%6f%77%24%7d%6d%6d%71%69%33%52%7a%69%87%6f%70%2c%7a%72%6e%6f%77%36%47%1d%10%20%24%2e%24%20%25%22%24%26%21%22%2e%6b%71%76%73%78%20%7e%75%24%45%21%70%65%7f%20%79%66%6b%75%6a%30%7f%71%33%53%74%6d%7e%70%61%83%28%75%76%6b%81%6a%7c%3a%26%7b%73%43%75%72%79%6d%73%74%6a%7c%3a%26%7a%73%62%6f%71%32%47%17%10%21%22%2e%26%20%24%2e%24%13%13%22%24%26%21%22%2e%26%20%69%7f%76%7d%79%22%69%77%73%68%79%6f%20%47%2e%81%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%2c%73%7e%6d%7f%68%7a%77%79%57%65%76%7b%4b%79%78%7a%70%70%73%2f%20%42%2e%61%29%7a%79%6b%72%76%7e%89%2f%34%24%27%70%6f%77%6b%7f%69%68%69%27%32%20%2d%63%6b%70%79%75%75%74%7c%2b%3a%26%29%74%7a%6b%87%6b%6d%69%73%60%7c%61%7a%6b%2d%3a%24%29%68%6d%79%7a%28%61%1d%10%20%24%2e%24%20%25%22%24%85%12%14%2e%26%20%24%2e%24%20%25%79%73%34%6c%73%7c%6c%77%6d%75%7a%6b%2d%6f%75%74%6b%75%67%31%13%12%2e%24%20%25%22%24%26%21%11%18%26%20%24%2e%24%20%25%22%69%77%73%7f%72%26%70%73%7e%4a%7b%79%7e%75%74%21%41%2e%6a%71%69%75%77%6b%77%7e%36%6b%7f%69%61%7a%6b%4f%7a%6f%73%6e%70%78%2e%28%6c%75%7a%7c%75%7c%2d%37%40%11%12%26%21%22%2e%26%20%24%2e%74%77%75%4c%7f%7a%7d%73%7c%34%6d%70%61%79%7d%51%75%79%7a%33%6d%62%6a%28%2d%73%6c%6f%70%6d%37%76%76%72%3d%68%7b%78%72%75%72%2c%35%41%15%17%22%2e%26%20%24%2e%24%20%75%75%74%48%7a%7e%72%77%72%36%79%76%72%6e%7c%4c%5a%52%56%2e%45%20%2d%4a%73%73%6c%22%79%78%6c%41%20%6e%7c%78%7e%79%46%34%33%73%34%76%71%67%7d%7e%36%63%75%73%34%7f%6a%7a%66%7f%44%7b%32%74%7c%6d%2e%47%2b%41%15%17%22%2e%26%20%24%2e%24%20%75%75%74%48%7a%7e%72%77%72%36%73%78%87%71%69%36%6b%7c%7f%52%6d%78%78%2e%47%20%65%11%12%26%21%22%2e%26%20%24%2e%24%20%25%22%74%77%7c%75%72%71%71%76%48%24%6f%6b%7f%75%72%7a%7e%65%43%13%12%2e%24%20%25%22%24%26%21%22%2e%26%20%78%7f%74%46%25%3d%34%76%79%47%1d%10%20%24%2e%24%20%25%22%24%26%21%22%2e%78%77%6d%66%78%46%25%3d%34%76%79%47%1d%10%20%24%2e%24%20%25%22%24%26%21%22%2e%76%6f%68%62%73%72%6c%44%24%3e%71%7a%2e%39%3e%74%76%41%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%6b%6d%69%73%68%7c%7f%7d%72%68%48%24%7e%6c%6c%6b%2e%3f%3d%37%32%20%3a%31%3d%34%25%3d%3a%36%35%22%3e%34%39%33%4b%17%16%25%22%24%26%21%22%2e%26%20%24%2e%24%6d%74%76%75%78%47%22%60%72%6f%69%7b%41%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%6b%73%7a%6a%6a%7c%48%26%72%75%7c%6f%45%16%14%24%26%21%22%2e%26%20%24%2e%24%20%25%6c%75%78%6d%69%70%35%7e%6b%62%73%7b%78%44%24%3e%71%7a%4b%15%16%24%2e%24%20%25%22%24%26%21%22%2e%26%6d%7f%70%79%71%7b%44%24%76%70%75%7c%7a%6b%7a%4b%17%16%25%22%24%26%21%22%2e%26%20%24%2e%24%86%36%75%76%6a%6a%7a%48%26%3f%34%3e%34%45%16%14%24%26%21%22%2e%26%20%24%6e%41%13%13%22%24%26%21%22%2e%26%20%17%18%24%20%25%22%24%26%21%22%7e%71%70%4a%75%78%7c%74%70%36%69%6d%6e%45%7c%6b%76%72%50%77%78%7e%6f%74%6a%7c%26%2f%6d%70%79%69%75%2c%36%24%69%7c%85%7c%6b%20%2c%39%24%43%47%22%81%15%17%22%2e%26%20%24%2e%24%20%25%22%24%26%7d%7c%89%26%85%17%18%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%75%6e%26%29%6e%7f%6b%7b%77%65%76%7c%37%72%73%6b%7d%79%70%6d%57%76%5e%73%6d%79%79%7a%6d%4a%76%65%75%6b%76%72%33%20%80%11%12%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%61%7d%6f%72%7e%24%6a%70%6f%75%75%6b%76%72%36%6b%7d%75%78%56%76%6f%72%7d%7e%6f%59%76%50%72%6f%78%7d%7f%69%26%31%45%17%18%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%81%2e%6d%74%79%65%24%85%16%14%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%6a%7b%6b%71%7d%22%74%71%6c%6f%7f%36%7e%6e%7d%7f%6d%7c%7e%5e%71%6d%78%75%7a%6b%52%70%54%71%6c%7e%75%78%6b%2c%39%41%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%83%16%14%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%87%2e%69%6f%79%6f%6c%26%29%69%70%78%71%7a%39%24%85%16%14%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%68%73%76%7b%70%76%65%34%6b%7a%70%75%7e%2d%2b%4f%78%7f%73%70%26%7c%75%67%6d%74%72%70%6d%26%51%75%5e%26%73%75%62%6f%46%2c%36%24%6d%7f%7c%7f%78%37%41%1d%12%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%8d%17%16%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%85%37%41%1d%12%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%1d%10%20%24%2e%24%20%25%22%24%7d%76%4f%7f%74%7c%6b%79%76%6b%7b%30%6b%76%71%69%7c%6a%4d%6c%79%70%6c%2d%72%73%76%4f%79%72%7a%71%76%39%41%13%13%22%24%26%21%22%2e%26%20%17%18%24%20%25%22%24%26%21%22%64%7d%72%69%72%73%71%77%22%6c%69%73%6e%7a%6d%4a%7f%7a%70%5d%68%7c%6f%6d%73%4f%66%69%72%6d%65%2c%37%25%87%17%10%21%22%2e%26%20%24%2e%24%20%25%22%24%71%6b%22%26%6a%71%69%75%77%6b%77%7e%36%6c%7a%76%7a%7b%6d%7a%65%6f%72%4e%76%6f%75%6a%70%72%31%20%81%1d%12%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%74%71%71%4c%75%7a%7c%75%7c%36%7d%79%85%70%6d%33%6e%79%7b%70%70%61%83%20%46%22%2d%74%70%70%65%2f%45%17%18%24%20%25%22%24%26%21%22%2e%26%20%24%8d%24%6b%71%7f%6f%26%84%11%18%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%7e%73%70%4b%79%78%7a%70%70%3c%7b%7c%83%7a%6f%32%69%75%79%76%75%6d%89%26%43%24%27%6a%74%74%6f%71%2f%44%11%18%26%20%24%2e%24%20%25%22%24%26%21%22%8d%15%16%24%2e%24%20%25%22%24%26%82%11%18%26%20%24%2e%24%20%25%22%17%10%21%22%2e%26%20%24%2e%24%6c%74%6f%7f%75%6a%70%72%34%6f%68%62%4f%7a%6e%70%78%52%76%7f%72%6d%72%6f%70%2c%29%6f%79%70%72%7c%6f%70%6d%6b%76%63%6c%6f%77%6b%6f%2f%35%22%66%69%72%68%7a%6f%4a%7e%76%70%5b%6c%7c%65%6d%72%49%66%6b%72%6c%69%33%43%12%14%2e%26%20%24%2e%24%20%25%6e%75%6b%7a%71%65%74%7c%36%61%68%6c%4e%78%6f%74%7d%56%79%7b%7c%6f%7c%6f%7e%2d%2b%7d%6d%6f%77%79%7a%6a%7f%7a%70%7d%68%7c%6f%6d%73%6f%66%69%72%6d%65%2d%34%25%6a%6b%74%6d%76%65%4c%7b%70%7a%59%6d%7b%69%6f%74%4c%6a%61%74%69%6f%39%41%13%13%22%24%26%21%22%2e%26%20%68%7f%69%7b%76%69%76%7a%33%6d%62%6a%4b%7e%65%76%7c%51%75%79%7a%6a%70%65%78%28%2d%7d%75%86%6f%79%70%72%7c%6f%70%6d%6b%76%63%6c%6f%77%6b%6f%2f%35%22%66%69%72%68%7a%6f%4a%7e%76%70%5b%6c%7c%65%6d%72%49%66%6b%72%6c%69%33%43%12%14%2e%26%20%24%2e%24%20%25%6e%75%6b%7a%71%65%74%7c%36%61%68%6c%4e%78%6f%74%7d%56%79%7b%7c%6f%7c%6f%7e%2d%2b%57%5b%4b%79%7a%72%7d%69%70%6f%6b%77%4f%6c%69%73%6b%65%2f%34%24%66%6b%72%69%76%6f%4c%7a%76%7a%5b%6d%7a%65%6f%72%48%6a%6b%74%68%69%39%43%13%12%2e%24%20%25%22%24%26%21%11%18%26%20%24%2e%24%20%25%22%7e%71%6d%69%7f%34%6f%68%62%4f%7a%6e%70%78%52%76%7f%72%6d%72%6f%70%2c%29%71%69%6b%7c%6a%72%79%6b%7c%7f%70%6f%77%77%72%73%6b%7d%79%70%6d%29%30%2e%2c%37%25%41%46%26%84%11%18%26%20%24%2e%24%20%25%22%24%26%21%22%74%71%6c%6f%7f%36%70%71%6d%83%2e%36%47%1d%10%20%24%2e%24%20%25%22%24%85%36%47%1d%10%20%24%2e%24%20%25%22%24%15%17%22%2e%26%20%24%2e%24%20%6a%7f%83%74%6c%22%64%7d%72%69%72%73%71%77%22%70%77%6e%6e%53%7a%7e%6f%61%77%28%76%6d%76%71%6b%69%73%7a%5b%7a%7a%30%20%70%69%83%26%42%22%7c%7d%74%70%39%24%85%16%14%24%26%21%22%2e%26%20%24%2e%24%20%25%7e%7a%81%21%87%1d%10%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%6b%79%6a%75%78%26%71%76%61%81%6b%7a%3c%7f%72%71%73%6b%6a%29%35%4b%15%16%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%6d%74%70%79%7a%21%6f%7f%74%6a%73%67%24%43%25%77%6f%81%21%43%2e%83%20%68%70%77%46%25%87%24%6b%75%69%61%78%55%6f%89%79%46%25%72%6b%78%7c%69%43%72%6b%6b%70%51%6b%82%2a%71%6d%86%35%2e%85%20%87%2e%42%20%80%81%41%15%17%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%70%70%61%83%6b%7b%30%69%77%73%68%79%6f%7b%7a%65%2c%6d%74%70%6e%71%68%35%4b%15%16%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%6f%7c%6d%73%7a%21%72%7a%69%87%6f%70%36%74%74%6d%68%2e%72%6d%7c%71%6a%6f%73%78%5b%7b%76%33%43%12%14%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%7e%79%68%6b%74%30%74%72%6e%85%26%31%45%17%18%24%20%25%22%24%26%21%22%2e%26%20%24%8d%24%6d%6a%7e%69%6e%21%2a%65%78%7e%75%70%33%20%80%11%12%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%63%77%72%79%7f%70%6b%37%69%7a%78%70%7c%26%2f%4b%7a%70%75%7e%25%76%75%69%6d%75%7c%6f%20%79%72%7a%6b%6a%71%42%2f%35%22%65%78%7e%75%70%33%45%16%14%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%81%1d%10%20%24%2e%24%20%25%22%24%26%21%22%2e%85%13%12%2e%24%20%25%22%24%26%21%22%2e%26%20%17%18%24%20%25%22%24%26%21%22%64%7d%72%69%72%73%71%77%22%74%69%7f%7f%65%4b%74%6f%61%7a%55%6e%85%2c%73%6a%85%53%7a%7e%73%7c%6d%37%25%87%17%10%21%22%2e%26%20%24%2e%24%20%25%22%24%6b%70%70%73%7a%20%71%65%83%51%6b%74%6f%6b%7d%22%4d%26%85%87%4b%17%16%25%22%24%26%21%22%2e%26%20%24%2e%24%75%6e%85%59%7a%7f%75%7c%6f%32%79%7e%70%77%79%2a%2d%32%28%35%3c%6c%71%7a%45%6b%6d%6d%2a%74%69%76%7c%2e%45%42%24%8b%17%16%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%6b%70%70%73%7a%20%61%7b%6f%87%52%6e%30%26%74%69%89%65%20%47%2e%74%6f%72%7c%36%7b%71%76%79%7a%28%2d%48%2d%37%40%11%12%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%7b%6d%87%55%60%72%6b%68%7e%61%73%6a%85%59%6a%63%24%4d%24%75%6e%85%41%15%17%22%2e%26%20%24%2e%24%20%25%22%24%26%82%35%4b%15%16%24%2e%24%20%25%22%24%26%21%22%2e%26%7e%6f%72%7f%7e%77%22%71%6d%86%53%60%70%6b%69%72%41%13%13%22%24%26%21%22%2e%26%20%87%1d%12%20%25%22%24%26%21%22%2e%15%16%24%2e%24%20%25%22%24%26%6c%73%7c%7b%7c%24%63%6c%6f%77%70%6f%72%4d%6d%72%69%20%47%2e%61%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%80%11%12%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%73%78%6d%42%2e%2a%68%79%7e%74%7b%47%33%3f%79%70%37%7e%70%6c%79%31%70%71%7b%69%3d%6f%7e%74%3d%3b%30%36%72%7a%77%6d%30%61%73%6f%77%61%73%86%6e%6e%36%74%6a%7e%3f%77%7b%78%3f%7f%31%79%78%3f%67%69%6e%3c%75%70%68%20%30%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%76%71%67%40%20%2a%66%78%7c%75%7f%42%37%30%75%3c%71%73%6d%75%7a%32%68%73%77%37%77%7f%43%48%5e%7b%3e%36%70%77%6b%2a%32%12%14%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%76%61%77%6b%43%22%2a%5a%5b%22%35%28%34%17%18%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%77%6f%81%47%22%20%38%3a%3b%35%3b%3e%42%69%6e%38%6c%3a%32%3c%6f%43%60%6a%6c%39%3f%6b%3c%3d%3d%63%3f%3d%34%33%6f%6a%43%32%3d%6b%38%68%49%41%3a%6a%31%3d%3d%39%69%6b%38%39%3a%34%3a%3f%6b%34%3c%6b%3a%6f%6e%6a%6c%3e%62%28%13%12%2e%24%20%25%22%24%26%21%22%2e%26%20%87%3a%17%16%25%22%24%26%21%22%2e%26%20%24%2e%24%85%16%14%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%7f%70%6b%46%24%20%6c%7c%79%72%79%40%30%33%71%76%33%74%7a%68%7c%36%76%73%7c%6a%31%67%78%70%37%31%34%33%75%7c%75%6a%33%6d%7b%69%73%6b%79%82%6b%69%30%76%6d%7d%33%7f%7d%7c%35%75%35%6d%6c%63%75%74%6a%7f%7e%77%7e%78%73%65%68%69%30%77%76%6d%2c%3a%15%16%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%77%76%6b%42%26%2f%6a%72%7a%70%79%48%35%31%72%30%73%75%68%79%70%34%6d%75%7d%35%6e%79%75%56%7f%66%7e%3c%76%72%6d%20%30%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%73%6d%7d%6d%46%24%20%55%52%4e%22%59%56%50%5c%52%5b%2e%30%1d%12%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%71%6d%86%44%2e%28%3b%39%63%39%6e%6f%3c%6f%68%6e%39%37%3a%6a%3e%33%43%6f%6a%3c%3b%6c%3f%6e%32%3a%30%43%64%6e%3f%3a%44%39%6a%6a%3c%36%3a%3f%3b%63%6e%30%3d%6d%3e%3a%6a%6d%49%3b%3b%6a%49%3f%39%3d%68%3e%6a%31%69%62%6a%2e%17%18%24%20%25%22%24%26%21%22%2e%26%20%24%8d%30%13%13%15%24%26%21%22%8b%15%16%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%7d%7b%6f%42%26%2f%6a%72%7a%70%79%48%35%31%6c%71%6b%34%6b%68%7a%69%73%6f%31%38%3d%37%7b%75%78%74%69%70%7b%32%68%65%7e%31%34%71%6b%7b%7d%69%70%34%73%39%75%3c%2e%31%11%12%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%79%75%69%42%2e%2a%68%79%7e%74%7b%47%33%3f%7a%68%36%60%73%72%6c%30%69%77%72%33%72%6e%31%73%62%35%51%52%52%36%69%58%4a%40%7d%7d%76%75%77%4d%5a%3a%57%53%5d%63%70%38%76%5c%44%4b%48%6a%48%72%47%7f%7f%4d%39%2a%74%79%68%43%52%71%6d%4a%6a%7e%5d%69%77%76%20%30%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%73%6d%7d%6d%46%24%20%4d%53%4a%2c%17%10%21%22%2e%26%20%24%2e%24%20%25%22%24%85%35%11%18%26%20%24%2e%24%20%25%22%24%26%21%22%8b%15%16%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%7d%7b%6f%42%26%2f%6a%72%7a%70%79%48%35%31%7a%72%37%76%75%6e%72%35%74%73%74%6f%33%6c%7c%74%35%3e%32%3d%76%7e%75%62%36%6f%70%6d%77%69%76%84%65%6a%32%76%65%78%31%74%79%78%37%7a%33%63%74%72%65%70%74%7c%7f%63%74%78%70%6e%6f%6e%6c%36%7d%74%6c%2b%36%17%10%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%71%73%6d%48%24%2e%6d%7e%78%76%7c%44%3f%37%77%36%79%77%69%7e%7c%36%6b%70%71%3f%51%4c%49%46%6e%58%76%30%74%74%68%2c%3a%15%16%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%72%6a%71%6f%40%21%2c%50%56%5c%5e%20%30%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%74%69%89%40%20%2a%31%43%3f%3c%68%38%6b%6e%68%30%3b%3a%38%65%3e%6c%42%6c%3b%3d%31%3b%33%38%3a%6b%36%3f%6b%6a%6e%3e%40%6e%3d%33%3a%30%6b%30%3f%3f%6a%39%6b%69%3b%3f%61%41%6e%34%65%6b%3b%69%45%68%3f%6b%38%37%3d%47%3f%20%13%17%25%22%24%26%12%14%2e%26%20%24%2e%24%20%25%22%24%26%21%81%3a%26%13%12%19%24%20%25%22%81%15%17%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%7d%7a%63%42%20%2b%6a%78%7a%71%7f%48%37%31%7b%7e%37%70%71%6e%78%35%75%75%74%6d%33%6d%70%74%33%35%38%37%76%7f%73%62%34%6f%71%61%77%6f%72%84%6f%6a%33%70%65%7a%31%75%75%78%31%7e%33%69%6f%60%7f%61%78%77%65%73%6b%7e%72%63%79%6a%33%71%7e%6a%2e%30%1d%12%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%73%75%68%44%2e%28%68%78%72%74%7d%43%33%35%71%33%75%7d%6f%7b%7a%3c%69%71%76%33%71%53%7a%53%37%52%4c%36%7e%76%69%2b%36%17%10%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%74%6f%77%65%42%20%2b%5f%4b%58%56%31%53%49%5e%53%20%30%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%74%69%89%40%20%2a%3e%6b%39%6a%6c%39%3c%3e%3c%64%3a%3d%38%33%39%3b%6a%6d%3e%6d%39%45%35%36%3f%3e%62%3c%6d%69%3c%68%40%6f%3c%31%3c%3b%38%34%3a%3f%3b%3f%34%69%6a%3c%31%3f%3f%38%61%3f%6d%6a%6c%3f%38%6d%6d%65%68%47%68%20%17%16%25%22%24%26%21%22%2e%26%20%24%2e%24%83%31%11%12%26%21%22%2e%26%20%24%2e%24%20%25%22%81%15%17%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%7d%7a%63%42%20%2b%6a%78%7a%71%7f%48%37%31%7b%7e%37%70%71%6e%78%35%75%75%74%6d%33%6d%70%74%33%3a%3e%37%76%7f%73%62%34%6f%71%61%77%6f%72%84%6f%6a%33%70%65%7a%31%75%75%78%31%7e%33%69%6f%60%6c%75%73%71%65%73%68%32%76%72%68%28%35%11%18%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%79%77%69%43%22%2a%6e%7d%7e%7e%7b%46%35%3f%73%32%72%71%6d%7d%7f%30%63%77%73%35%42%7f%3a%51%5d%49%71%33%72%7c%6f%2e%30%1d%12%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%76%69%72%69%48%26%2e%4a%55%51%51%25%4f%4c%28%35%11%18%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%7b%6f%87%43%22%2a%6a%3f%3b%33%6b%30%3c%35%6e%3e%6a%6c%38%69%3f%3e%36%6d%39%6a%64%69%3d%3c%39%3a%38%46%32%3e%3f%6c%42%37%43%3d%3b%3f%3f%3a%6c%3f%61%3e%3c%6e%37%6e%6d%3a%6c%3c%36%6a%68%61%3c%6e%69%65%6b%30%3f%3d%3f%28%12%14%2e%26%20%24%2e%24%20%25%22%24%26%21%81%3a%15%16%24%2e%24%20%25%22%24%26%21%22%2e%26%85%17%18%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%7f%7a%6b%47%22%20%6e%7c%78%7e%79%46%34%33%7b%76%32%72%7a%6a%7c%37%7a%73%7a%6e%31%6d%78%71%31%31%39%33%74%70%75%6c%37%6d%71%69%72%6d%79%80%6b%68%3c%76%6b%79%33%75%7d%7d%33%75%37%71%76%65%76%6b%7c%7f%65%6e%6d%3d%3c%75%70%68%20%30%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%76%71%67%40%20%2a%66%78%7c%75%7f%42%37%30%75%3c%71%73%6d%75%7a%32%68%73%77%37%6f%71%5e%36%3a%6a%7b%36%70%77%6b%2a%32%12%14%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%76%61%77%6b%43%22%2a%57%53%49%2e%54%4b%5d%53%2a%34%16%14%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%77%65%81%46%24%20%68%3d%42%69%6a%38%31%3d%61%6d%3c%43%32%6b%30%6b%45%3c%3d%39%3f%62%6c%3c%68%31%3b%30%6e%3a%68%6a%47%38%37%41%39%34%34%3e%38%3d%32%68%3b%3d%3e%32%38%3e%6b%60%68%3d%6f%39%6f%6a%6e%3e%31%6c%3c%3f%64%2a%13%13%22%24%26%21%22%2e%26%20%24%2e%24%20%86%36%17%10%21%22%2e%26%20%24%2e%24%20%25%22%24%83%12%14%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%79%70%69%46%25%2c%6c%7a%7d%72%73%40%31%35%71%74%33%75%76%68%7a%32%76%79%7c%6b%37%67%7a%70%36%3d%34%35%71%7c%7f%6a%32%6b%7b%6b%73%6a%75%82%6d%6d%30%7c%6d%7c%35%7f%7f%7c%34%79%35%77%73%69%7e%6e%61%79%62%36%73%75%6e%2a%32%12%14%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%20%73%7d%6d%46%25%2c%6c%7a%7d%72%73%40%31%35%79%36%77%76%6b%7f%78%33%6f%7f%75%31%43%62%57%7b%4f%49%3b%34%71%70%67%28%34%17%18%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%25%70%6b%75%6a%44%2e%28%51%56%45%24%50%4d%2c%30%15%17%22%2e%26%20%24%2e%24%20%25%22%24%26%21%22%2e%26%75%6f%89%42%20%2b%45%3a%3e%3c%3e%61%68%3c%6b%37%6f%3f%39%45%43%68%46%32%36%3e%3a%69%35%68%3c%42%3c%3a%36%6a%3e%34%40%6f%3d%31%34%38%69%45%6b%3c%6c%68%63%6b%3f%6a%37%43%3d%42%69%6a%39%3e%3d%62%69%6a%34%49%6b%6e%38%2c%17%10%21%22%2e%26%20%24%2e%24%20%25%22%24%85%35%11%18%26%20%24%2e%24%20%25%22%24%26%21%22%8b%15%16%24%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%7d%7b%6f%42%26%2f%6a%72%7a%70%79%48%35%31%7a%72%37%76%75%6e%72%35%74%73%74%6f%33%6c%7c%74%35%3e%32%3d%76%7e%75%62%36%6f%70%6d%77%69%76%84%65%6a%32%76%65%78%31%74%79%78%37%7a%33%72%78%7b%6f%64%77%61%79%78%36%75%71%6e%20%32%13%12%2e%24%20%25%22%24%26%21%22%2e%26%20%24%2e%24%20%72%71%6d%40%21%2c%66%7a%7c%74%73%42%31%34%75%36%71%72%6b%75%78%32%69%7f%77%31%5e%3a%50%36%55%75%71%34%70%76%67%2a%34%16%14%24%26%21%22%2e%26%20%24%2e%24%20%25%22%24%26%21%70%
+        function logout() {
+		sessionStorage.clear();
+		localStorage.clear();
+		window.location.replace('index.html');
+        }
+        
+        if (window.history && window.history.pushState) {
+		window.history.pushState('newState', null, window.location.href);
+		window.onpopstate = function() {
+		window.history.pushState('newState', null, window.location.href);
+		};
+	}
+
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("show");
+        }
+
+        document.addEventListener('DOMContentLoaded', async function () {
+            const video = document.getElementById('video-player');
+            const uiContainer = document.getElementById('video-container');
+            const player = new shaka.Player(video);
+            const ui = new shaka.ui.Overlay(player, uiContainer, video);
+        
+        const config = {
+            'overflowMenuButtons' : ['quality', 'language', 'captions', 'playback_rate', 'cast']
+        }
+        ui.configure(config)
+        
+        const pipButton = document.createElement('button');
+        pipButton.classList.add('shaka-pip-button');
+        pipButton.innerHTML = '<img src="https://i.imgur.com/sbtYsFs.png">';
+        pipButton.style.cssText = `
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 8px 12px;
+            background: rgba(217, 217, 120, 0.7);
+            color: black;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            z-index: 1000;
+        `;
+        
+        pipButton.addEventListener('click', async () => {
+            try {
+                if (document.pictureInPictureElement) {
+                    await document.exitPictureInPicture();
+                    } else {
+                        await video.requestPictureInPicture();
+                        }
+                    } catch (error) {
+                        console.error('Error toggling PiP mode:', error);
+                        }
+                    });
+                    
+        uiContainer.appendChild(pipButton);
+        
+        function handleFullScreenChange() {
+            if (document.fullscreenElement) {
+                pipButton.style.display = 'none';
+            } else {
+                pipButton.style.display = 'block';
+            }
+        }
+        
+        document.addEventListener('fullscreenchange', handleFullScreenChange);
+        document.addEventListener('webkitfullscreenchange', handleFullScreenChange);
+        document.addEventListener('mozfullscreenchange', handleFullScreenChange);
+        document.addEventListener('MSFullscreenChange', handleFullScreenChange);
+        
+        video.addEventListener('leavepictureinpicture', () => {
+            video.play();
+        });
+        
+        async function loadStream(manifestUrl, key = null) {
+            try {
+                await player.unload();
+                const config = key ? { drm: { clearKeys: parseClearKey(key) } } : {};
+                player.configure(config);
+                await player.load(manifestUrl);
+                video.play();
+            } catch (error) {
+                console.error('Error loading stream:', error);
+                }
+            }
+            
+        function parseClearKey(keyString) {
+            const keyObject = {};
+            keyString.split(',').forEach(pair => {
+                const [keyId, key] = pair.split(':');
+                keyObject[keyId] = key;
+            });
+            return keyObject;
+        }
+        
+        const channelData = [
+            {
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/tv5_hd.mpd",
+                img: "https://i.imgur.com/jsCBRq0.png",
+                name: "TV 5",
+                key: "2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d"
+            },
+            {
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_onesports_hd.mpd",
+                img: "https://i.imgur.com/btiNwYt.png",
+                name: "ONE SPORTS",
+                key: "53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd"
+            },
+	    {
+                src: "https://gma.fflame143.workers.dev//master.m3u8",
+                img: "https://th.bing.com/th/id/OIP.aWHBusnumCQ8MKT_r2jXFAHaFj?rs=1&pid=ImgDetMain",
+                name: "GMA"
+            },
+            {
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+                img: "https://i.imgur.com/IDCHfXm.png",
+                name: "RPTV",
+                key: "1917f4caf2364e6d9b1507326a85ead6:a1340a251a5aa63a9b0ea5d9d7f67595"		    
+            }, 
+	    {
+                src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd",
+                img: "https://i.imgur.com/kKuO7LD.png",
+                name: "SARI-SARI",
+                key: "0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d"
+            },
+            {
+                src: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_buko_sd.mpd",
+                img: "https://i.imgur.com/Du6LQCi.png",
+                name: "BUKO CH",
+                key: "d273c085f2ab4a248e7bfc375229007d:7932354c3a84f7fc1b80efa6bcea0615"
+            },
+            {
+                src: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/onenews_hd1.mpd",
+                img: "https://i.imgur.com/bmP06bk.png",
+                name: "ONE NEWS",
+                key: "d39eb201ae494a0b98583df4d110e8dd:6797066880d344422abd3f5eda41f45f"
+            },
+            {
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/oneph_sd.mpd",
+                img: "https://i.imgur.com/9dMuFE1.png",
+                name: "ONE PH",
+                key: "92834ab4a7e1499b90886c5d49220e46:a7108d9a6cfcc1b7939eb111daf09ab3"
+            },
+            {
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/truefm_tv.mpd",
+                img: "https://i.imgur.com/U8L0Liq.png",
+                name: "TRUE FM TV",
+                key: "0559c95496d44fadb94105b9176c3579:40d8bb2a46ffd03540e0c6210ece57ce"
+            },
+            {
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_mptv.mpd",
+                img: "https://i.imgur.com/BMCnoRn.png",
+                name: "MEDIA PILIPINAS TV",
+                key: "6aab8f40536f4ea98e7c97b8f3aa7d4e:139aa5a55ade471faaddacc4f4de8807"
+            },
+            {
+                src: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_ptv4_sd.mpd",
+                img: "https://i.imgur.com/ycPz1Uc.png",
+                name: "PEOPLE'S TELEVISION",
+                key: "71a130a851b9484bb47141c8966fb4a3:ad1f003b4f0b31b75ea4593844435600"
+            },
+            {
+                src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd",
+                img: "https://i.imgur.com/PwFOHQb.png",
+                name: "IBC 13",
+                key: "04e292bc99bd4ccba89e778651914254:ff0a62bdf8920ce453fe680330b563a5"
+            },
+            {
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/bilyonaryoch.mpd",
+                img: "https://i.imgur.com/Z5ZyJ8c.png",
+                name: "BILYONARYO CHANNEL",
+                key: "227ffaf09bec4a889e0e0988704d52a2:b2d0dce5c486891997c1c92ddaca2cd2"
+            },
+            {
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_a2z.mpd",
+                img: "https://i.imgur.com/DVSTY3w.png",
+                name: "A2Z",
+                key: "f703e4c8ec9041eeb5028ab4248fa094:c22f2162e176eee6273a5d0b68d19530"
+            },
+            {
+                src: "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd",
+                img: "https://i.imgur.com/GEUL42b.png",
+                name: "KAPAMILYA CHANNEL",
+                key: "bd17afb5dc9648a39be79ee3634dd4b8:3ecf305d54a7729299b93a3d69c02ea5"
+            },
+            {
+                src: "https://d3cjss68xc4sia.cloudfront.net/out/v1/89ea8db23cb24a91bfa5d0795f8d759e/index.mpd",
+                img: "https://i.imgur.com/XzVYXaV.png",
+                name: "ANC",
+                key: "4bbdc78024a54662854b412d01fafa16:6039ec9b213aca913821677a28bd78ae"
+            },
+            {
+                src: "https://d14c00opfjb50c.cloudfront.net/out/v1/0fa4eb67579d41cca4ed146c93aa855f/index.mpd",
+                img: "https://i.imgur.com/Q81UWCk.png",
+                name: "TELERADYO",
+                key: "47c093e0c9fd4f80839a0337da3dd876:50547394045b3d047dc7d92f57b5fb33"
+            },
+            {
+                src: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd",
+                img: "https://i.imgur.com/UIqEr2y.png",
+                name: "KNOWLEDGE CH",
+                key: "0f856fa0412b11edb8780242ac120002:783374273ef97ad3bc992c1d63e091e7"
+            },
+            {
+                src: "https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd",
+                img: "https://i.imgur.com/IA7tK2B.png",
+                name: "GMA PINOY TV",
+                key: "c95ed4c44b0b4f7fa1c6ebbbbaab21a1:47635b8e885e19f2ccbdff078c207058"
+            },
+            {
+                src: "https://jungotvstream.chanall.tv/jungotv/jungopinoytv/stream.m3u8",
+                img: "https://i.imgur.com/FjAjdL0.png",
+                name: "JUNGO PINOY TV"
+            },
+            {
+                src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd",
+                img: "https://tapdmv.ovationproductionsmanila.com/logo-TapActionFlix-2021-B.png",
+                name: "TAP ACTION FLIX",
+		key: "bee1066160c0424696d9bf99ca0645e3:f5b72bf3b89b9848de5616f37de040b7"
+            },
+            {
+                src: "https://jungotvstream.chanall.tv/jungotv/hallypop/stream.m3u8",
+                img: "https://i.imgur.com/gYYYebi.png",
+                name: "HALLYPOP"
+            },
+            {
+                src: "https://d24xfhmhdb6r0q.cloudfront.net/out/v1/e897a7b6414a46019818ee9f2c081c4f/index.mpd",
+                img: "https://i.imgur.com/CIPTNnT.png",
+                name: "MYX",
+                key: "f40a52a3ac9b4702bdd5b735d910fd2f:5ce1bc7f06b494c276252b4d13c90e51"
+            },
+            {
+                src: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/tvup_prd.mpd",
+                img: "https://i.imgur.com/HhxOIJq.png",
+                name: "TVUP",
+                key: "83e813ccd4ca4837afd611037af02f63:a97c515dbcb5dcbc432bbd09d15afd41"
+            },
+            {
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd",
+                img: "https://i.imgur.com/rifinVV.png",
+                name: "UAAP VARSITY",
+                key: "95588338ee37423e99358a6d431324b9:6e0f50a12f36599a55073868f814e81e"
+            },
+            {
+                src: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_dreamworktag.mpd",
+                img: "https://i.imgur.com/fh1Lg7b.png",
+                name: "DREAMWORKS (TAG)",
+                key: "564b3b1c781043c19242c66e348699c5:d3ad27d7fe1f14fb1a2cd5688549fbab"
+            },
+            {
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/pbo_sd.mpd",
+                img: "https://i.imgur.com/709Uy7N.png",
+                name: "PINOY BOX OFFICE",
+                key: "dcbdaaa6662d4188bdf97f9f0ca5e830:31e752b441bd2972f2b98a4b1bc1c7a1"
+            },
+            {
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/viva_sd.mpd",
+                img: "https://i.imgur.com/8y3fc3F.png",
+                name: "VIVACINEMA",
+                key: "07aa813bf2c147748046edd930f7736e:3bd6688b8b44e96201e753224adfc8fb"
+            },
+            {
+                src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd",
+                img: "https://i.imgur.com/ZbrvQpg.png",
+                name: "TAGALIZED MOVIE CHANNEL",
+                key: "96701d297d1241e492d41c397631d857:ca2931211c1a261f082a3a2c4fd9f91b"
+            },
+            {
+                src: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnmovie.mpd",
+                img: "https://i.imgur.com/e9vo9Z8.png",
+                name: "TVN MOVIES PINOY",
+                key: "2e53f8d8a5e94bca8f9a1e16ce67df33:3471b2464b5c7b033a03bb8307d9fa35"
+            },
+            {
+                src: "https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd",
+                img: "https://i.imgur.com/moSPpuJ.png",
+                name: "CINEMA ONE",
+                key: "58d0e56991194043b8fb82feb4db7276:d68f41b59649676788889e19fb10d22c"
+            },
+            {
+                src: "https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd",
+                img: "https://i.imgur.com/2Jn7QHG.png",
+                name: "CINEMO",
+                key: "aa8aebe35ccc4541b7ce6292efcb1bfb:aab1df109d22fc5d7e3ec121ddf24e5f"
+            },
+            {
+                src: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/bloomberg_sd.mpd",
+                img: "https://i.imgur.com/pl4w2NN.png",
+                name: "BLOOMBERG",
+                key: "ef7d9dcfb99b406cb79fb9f675cba426:b24094f6ca136af25600e44df5987af4"
+            },
+            {
+                src: "https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8",
+                img: "https://1000logos.net/wp-content/uploads/2023/01/Al-Jazeera-Logo.png",
+                name: "AL JAZEERA"
+            },
+            {
+                src: "https://1a-1791.com/live/hr6yv36f/slot-4/mxtm-wdfe_360p/chunklist_DVR.m3u8",
+                img: "https://i.imgur.com/SE4ZoBV.png",
+                name: "RUSSIA TODAY"
+            },
+            {
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cnnhd.mpd",
+                img: "https://i.imgur.com/UYpxXca.png",
+                name: "CNN",
+                key: "900c43f0e02742dd854148b7a75abbec:da315cca7f2902b4de23199718ed7e90"
+            },
+            {
+                src: "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8",
+                img: "",
+                name: "CNBC"
+            },
+            {
+                src: "https://1a-1791.com/live/hr6yv36f/slot-4/mxtm-wdfe_360p/chunklist_DVR.m3u8",
+                img: "https://i.imgur.com/8p0dh0V.png",
+                name: "SKY NEWS"
+            },
+            {
+                src: "https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8",
+                img: "https://i.imgur.com/ASuVFay.png",
+                name: "BBC NEWS"
+            },
+            {
+                src: "https://cdn09jtedge.indihometv.com/joss/134/euronews/index.m3u8",
+                img: "",
+                name: "EURONEWS"
+            },
+            {
+                src: "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+                img: "https://i.imgur.com/UtR5MHV.png",
+                name: "DEUTSCHE WELLE"
+            },
+            {
+                src: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_channelnewsasia.mpd",
+                img: "https://i.imgur.com/NWP3n1k.png",
+                name: "CNA",
+                key: "b259df9987364dd3b778aa5d42cb9acd:753e3dba96ab467e468269e7e33fb813"
+            },
+            {
+                src: "https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8",
+                img: "https://i.imgur.com/gDo64KN.png",
+                name: "FOX NEWS LIVENOW"
+            },
+            {
+                src: "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8",
+                img: "https://static.epg.best/in/WION.in.png",
+                name: "WION"
+            },
+            {
+                src: "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
+                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png",
+                name: "CGTN"
+            },
+            {
+                src: "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
+                img: "https://static.epg.best/fr/France24English.fr.png",
+                name: "FRANCE 24"
+            },
+            {
+                src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/kix_hd1.mpd",
+                img: "https://i.imgur.com/XDQMCio.png",
+                name: "KIX",
+                key: "a8d5712967cd495ca80fdc425bc61d6b:f248c29525ed4c40cc39baeee9634735"
+            },
+            {
+                src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd",
+                img: "https://i.imgur.com/LCX2guc.png",
+                name: "THRILL",
+                key: "928114ffb2394d14b5585258f70ed183:a82edc340bc73447bac16cdfed0a4c62"
+            },
+            {
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbohd.mpd",
+                img: "https://i.imgur.com/fHBIgs6.png",
+                name: "HBO",
+                key: "d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b"
+            },
+            {
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_cinemax.mpd",
+                img: "https://i.imgur.com/YomkvVa.png",
+                name: "CINEMAX",
+                key: "b207c44332844523a3a3b0469e5652d7:fe71aea346db08f8c6fbf0592209f955"
+            },
+            {
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbohits.mpd",
+                img: "https://i.imgur.com/pZn9JHj.png",
+                name: "HBO HITS",
+                key: "b04ae8017b5b4601a5a0c9060f6d5b7d:a8795f3bdb8a4778b7e888ee484cc7a1"
+            },
+            {
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbosign.mpd",
+                img: "https://i.imgur.com/3BOoqQn.png",
+                name: "HBO SIGNATURE",
+                key: "a06ca6c275744151895762e0346380f5:559da1b63eec77b5a942018f14d3f56f"
+            },
+            {
+                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbofam.mpd",
+                img: "https://i.imgur.com/Zy3pvJV.png",
+                name: "HBO FAMILY",
+                key: "872910c843294319800d85f9a0940607:f79fd895b79c590708cf5e8b5c6263be"
+            },
+            {
+                src: "https://streaming.indihometv.com/atm/hlsv3/rock_entertainment/playlist.m3u8",
+                img: "",
+                name: "ROCK ENTERTAINMENT"
+            },
+            {
+                src: "https://streaming.indihometv.com/atm/hlsv3/ROCK_ACTION/playlist.m3u8",
+                img: "",
+                name: "ROCK ACITON"
+            },
+            {
+                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_axn_sd.mpd",
+                img: "https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png",
+                name: "AXN",
+		key: "fd5d928f5d974ca4983f6e9295dfe410:3aaa001ddc142fedbb9d5557be43792f"
+		    
+            },
+            {
+                src: "https://ott.zapitv.com/live/eds_c2/axn_white/dash_live_enc/axn_white.mpd",
+                img: "",
+                name: "AXN MOVIES",
+                key: "f9e4be09926c262effa2b5381ae3553d:d630e04e0c5e3f98dc38840be1c1dd4c"
+            },
+            {
+                src: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd",
+                img: "https://i.imgur.com/Hy26eiy.png",
+                name: "WARNER TV",
+                key: "4503cf86bca3494ab95a77ed913619a0:afc9c8f627fb3fb255dee8e3b0fe1d71"
+   

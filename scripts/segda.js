@@ -1,5 +1,4 @@
-type="text/javascript">
-            function SetDest(a) {
+function SetDest(a) {
                 a.href = "https://facebook.com/eldersky";
             };
             

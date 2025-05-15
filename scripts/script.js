@@ -115,6 +115,7 @@
                 src: "http://143.44.136.110:6910/001/2/ch00000090990000001093/manifest.mpd?virtualDomain=001.live_hls.zte.com",
                 img: "https://th.bing.com/th/id/OIP.aWHBusnumCQ8MKT_r2jXFAHaFj?rs=1&pid=ImgDetMain",
                 name: "GMA",
+		type: "com.widevine.alpha",
                 key: "http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00"
             },
             {

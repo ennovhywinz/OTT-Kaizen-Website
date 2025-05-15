@@ -106,11 +106,10 @@
                 key: "2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d"
             },
             {
-                src: "http://143.44.136.110:6910/001/2/ch00000090990000001093/manifest.mpd?virtualDomain=001.live_hls.zte.com",
+                src: "http://ott.udptv.net/stream/iptv/gma/master.m3u8?u=civ3&p=673b29c3c96ef6b81971b748cdf0e46d531b3c6690c885706e02b469ba8b14ca",
                 img: "https://th.bing.com/th/id/OIP.aWHBusnumCQ8MKT_r2jXFAHaFj?rs=1&pid=ImgDetMain",
                 name: "GMA",
-		key: "http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00"
-            },
+	    },
             {
                 src: "http://cord-cutter.net:8080/220726268/220726268/101826",
                 img: "http://logo.protv.cc/picons/logos/gma_pinoytv.png",

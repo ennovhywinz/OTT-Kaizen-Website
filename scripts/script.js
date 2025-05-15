@@ -112,7 +112,7 @@
                 key: "53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd"
             },
 	    {
-                src: "http://xtream-ie.org:80/live/HONORTV/bshsrhthrh/4914?.mpd?token-745579298484938662905703877397479837774938748937839827738377374837373839489393773849392928763552652783939",
+                src: "http://143.44.136.110:6910/001/2/ch00000090990000001093/manifest.mpd?virtualDomain=001.live_hls.zte.com",
                 img: "https://th.bing.com/th/id/OIP.aWHBusnumCQ8MKT_r2jXFAHaFj?rs=1&pid=ImgDetMain",
                 name: "GMA",
                 key: "http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00"

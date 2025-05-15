@@ -113,7 +113,7 @@
             },
             {
                 src: "http://cord-cutter.net:8080/220726268/220726268/101826",
-                img: "https://i.imgur.com/IDCHfXm.png",
+                img: "http://logo.protv.cc/picons/logos/gma_pinoytv.png",
                 name: "GMA PINOY TV"
             }, 
 	    {

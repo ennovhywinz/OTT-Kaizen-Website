@@ -106,23 +106,15 @@
                 key: "2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_onesports_hd.mpd",
-                img: "https://i.imgur.com/btiNwYt.png",
-                name: "ONE SPORTS",
-                key: "53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd"
-            },
-	    {
                 src: "http://143.44.136.110:6910/001/2/ch00000090990000001093/manifest.mpd?virtualDomain=001.live_hls.zte.com",
                 img: "https://th.bing.com/th/id/OIP.aWHBusnumCQ8MKT_r2jXFAHaFj?rs=1&pid=ImgDetMain",
                 name: "GMA",
-		type: "com.widevine.alpha",
-                key: "http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00"
+		key: "http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+                src: "http://cord-cutter.net:8080/220726268/220726268/101826",
                 img: "https://i.imgur.com/IDCHfXm.png",
-                name: "RPTV",
-                key: "1917f4caf2364e6d9b1507326a85ead6:a1340a251a5aa63a9b0ea5d9d7f67595"		    
+                name: "GMA PINOY TV"
             }, 
 	    {
                 src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd",

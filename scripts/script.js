@@ -392,33 +392,10 @@
                 key: "0a414b719bade2acc124e22c042290f3:db84a5afa10a001dd73b094c14638212"
             },
             {
-                src: "https://streaming.indihometv.com/joss/134/cinemaworld/playlist.m3u8",
-                img: "https://i.imgur.com/GoC9AZ2.png",
-                name: "CINEMAWORLD"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/lotusmacau_prd.mpd",
-                img: "https://i.imgur.com/SNc90AX.png",
-                name: "LOTUS MACAU",
-                key: "60dc692e64ea443a8fb5ac186c865a9b:01bdbe22d59b2a4504b53adc2f606cc1"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/mtv_espana/dash_live_enc/mtv_espana.mpd",
-                img: "https://i.imgur.com/tb65CMh.png",
-                name: "MTV",
-                key: "10f86eedfa603133e035c4c64226dd6b:1678761258b8a16d5d5b9241bd647536"
-            },
-            {
                 src: "https://tr.live.cdn.cgates.lt/live/dash/560701/index.mpd",
                 img: "https://i.imgur.com/6pAXZUA.png",
                 name: "MTV LIVE",
                 key: "1041d72f861c4e60a87a4e828250ded6:c75b1640bc83ec0c653902a775e5bb1a"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/mtv_hits/dash_live_enc/mtv_hits.mpd",
-                img: "https://i.imgur.com/z0uTcNt.png",
-                name: "MTV HITS",
-                key: "f2975a79fd099430a195212b04b4dd1e:7f8f21c0b12be72690510d92b893b5ac"
             },
             {
                 src: "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8",
@@ -447,92 +424,15 @@
                 name: "ANIME X HIDIVE"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_tvnpre.mpd",
-                img: "https://i.imgur.com/lY1BAUH.png",
-                name: "TVN",
-                key: "e1bde543e8a140b38d3f84ace746553e:b712c4ec307300043333a6899a402c10"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/133/tvnmovies/playlist.m3u8",
-                img: "https://i.imgur.com/oLzTyUX.png",
-                name: "TVN MOVIES"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/133/sone/playlist.m3u8",
-                img: "https://i.imgur.com/Xv8cQh0.png",
-                name: "ONE"
-            },
-            {
-                src: "https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8",
-                img: "https://i.imgur.com/JAL3Ohz.png",
-                name: "KBS WORLD"
-            },
-            {
-                src: "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8",
-                img: "https://i.imgur.com/WX0fL1C.png",
-                name: "NHK WORLD"
-            },
-            {
                 src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_abc_aus.mpd",
                 img: "https://i.imgur.com/qQ33TVM.png",
                 name: "ABC AUSTRALIA",
                 key: "389497f9f8584a57b234e27e430e04b7:3b85594c7f88604adf004e45c03511c0"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_cctv4.mpd",
-                img: "https://i.imgur.com/h9vqWzN.png",
-                name: "CCTV4",
-                key: "b83566836c0d4216b7107bd7b8399366:32d50635bfd05fbf8189a0e3f6c8db09"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_cgtn.mpd",
-                img: "https://i.imgur.com/m20XaAQ.png",
-                name: "CGTN DOCUMENTARY",
-                key: "0f854ee4412b11edb8780242ac120002:9f2c82a74e727deadbda389e18798d55"
-            },
-            {
                 src: "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
                 img: "https://i.imgur.com/jgiNWxJ.png",
                 name: "ARIRANG"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_tv5_monde.mpd",
-                img: "https://i.imgur.com/W4o8wtt.png",
-                name: "TV5 MONDE",
-                key: "fba5a720b4a541b286552899ba86e38b:f63fa50423148bfcbaa58c91dfcffd0e"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/133/disco/playlist.m3u8",
-                img: "https://i.imgur.com/o703o4e.png",
-                name: "DISCOVERY"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/194/animalplanet/playlist.m3u8",
-                img: "https://i.imgur.com/RXMzzlB.png",
-                name: "ANIMAL PLANET"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd",
-                img: "https://i.imgur.com/DvXfCrO.png",
-                name: "FOOD NETWORK",
-                key: "b7299ea0af8945479cd2f287ee7d530e:b8ae7679cf18e7261303313b18ba7a14"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/hgtv_hd1.mpd",
-                img: "https://i.imgur.com/FGgFyoi.png",
-                name: "HGTV",
-                key: "f0e3ab943318471abc8b47027f384f5a:13802a79b19cc3485d2257165a7ef62a"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/133/tlc/playlist.m3u8",
-                img: "https://i.imgur.com/bU6a84F.png",
-                name: "TLC"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/travel_channel_sd.mpd",
-                img: "https://i.imgur.com/LplHeem.png",
-                name: "TRAVEL CHANNEL",
-                key: "f3047fc13d454dacb6db4207ee79d3d3:bdbd38748f51fc26932e96c9a2020839"
             },
             {
                 src: "https://uselector.cdn.intigral-ott.net/DCX/DCX.isml/manifest.mpd",
@@ -552,12 +452,6 @@
                 key: "bce56c8de2f1b27b16dd7d3abc2409b6:8c1c393bb61be740910438f6e49c7c32a"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd",
-                img: "https://i.imgur.com/O5jBcL2.png",
-                name: "ASIAN FOOD NETWORK",
-                key: "1619db30b9ed42019abb760a0a3b5e7f:5921e47fb290ae263291b851c0b4b6e4"
-            },
-            {
                 src: "https://uselector.cdn.intigral-ott.net/NGO/NGO.isml/manifest.mpd",
                 img: "https://i.imgur.com/2TeKCBK.png",
                 name: "NATIONAL GEOGRAPHIC",
@@ -570,59 +464,9 @@
                 key: "276e56bc14095f327bbf0c936eb7b38c:63127eaddb18c596db05657424849519"
             },
             {
-                src: "https://streaming.indihometv.com/joss/133/crimeinvestigation/playlist.m3u8",
-                img: "https://i.imgur.com/KeM5KlR.png",
-                name: "CRIME + INVESTIGATION"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/134/lifetime/playlist.m3u8",
-                img: "https://i.imgur.com/LIrEjuN.png",
-                name: "LIFETIME"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_historyhd.mpd",
-                img: "https://i.imgur.com/z9fsJ2L.png",
-                name: "HISTORY",
-                key: "a7724b7ca2604c33bb2e963a0319968a:6f97e3e2eb2bade626e0281ec01d3675"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/133/techstorm/playlist.m3u8",
-                img: "https://i.imgur.com/yt8UxLj.png",
-                name: "TECHSTORM"
-            },
-            {
                 src: "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8",
                 img: "https://cms.cignal.tv/Upload/Images/Outdoor-Channel.png",
                 name: "OUTDOOR CHANNEL"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/194/curiosity/playlist.m3u8",
-                img: "https://i.imgur.com/VqTXs9t.png",
-                name: "CURIOSITY CHANNEL"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_bbcearth_hd1.mpd",
-                img: "https://i.imgur.com/GV3GAln.png",
-                name: "BBC EARTH",
-                key: "34ce95b60c424e169619816c5181aded:0e2a2117d705613542618f58bf26fc8e"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_bbclifestyle.mpd",
-                img: "https://i.imgur.com/ipKlaA4.png",
-                name: "BBC LIFESTYLE",
-                key: "34880f56627c11ee8c990242ac120002:c23677c829bb244b79a3dc09ffd88ca0"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/blaze/dash_live_enc/blaze.mpd",
-                img: "https://i.imgur.com/GmrUIHd.png",
-                name: "AMC BREAK",
-                key: "15e412a4edd85313233969913072e0ff:5098eafaff2b246ee15e8f9aeb5403fb"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/crimen/dash_live_enc/crimen.mpd",
-                img: "https://i.imgur.com/4j0xoNI.png",
-                name: "AMC CRIME",
-                key: "e3048d6cc539b8a8b90d74992fb4e197:4e494e4d179abc3d3f10073b21ac8630"
             },
             {
                 src: "https://uselector.cdn.intigral-ott.net/DIS/DIS.isml/manifest.mpd",
@@ -642,39 +486,9 @@
                 name: "DISNEY XD"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd",
-                img: "https://i.imgur.com/Offhcm1.png",
-                name: "CARTOON NETWORK",
-                key: "a2d1f552ff9541558b3296b5a932136b:cdd48fa884dc0c3a3f85aeebca13d444"
-            },
-            {
                 src: "https://cdn4.skygo.mn/live/disk1/Boomerang/HLS-FTA/Boomerang.m3u8",
                 img: "https://i.imgur.com/kHhmOMp.png",
                 name: "CARTOONITO"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/boing/dash_live_enc/boing.mpd",
-                img: "https://i.imgur.com/uRgdZ6m.png",
-                name: "BOING",
-                key: "97c3e5f52bf51efe706c221930bc2b5b:b9473af4e52eaa9c9def9f8a5c54333c"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_dreamworks_hd1.mpd",
-                img: "https://i.imgur.com/Iy35n22.png",
-                name: "DREAMWORKS",
-                key: "4ab9645a2a0a47edbd65e8479c2b9669:8cb209f1828431ce9b50b593d1f44079"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_nickelodeon.mpd",
-                img: "https://i.imgur.com/kbIi1V6.png",
-                name: "NICKELODEON",
-                key: "9ce58f37576b416381b6514a809bfd8b:f0fbb758cdeeaddfa3eae538856b4d72"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_nickjr.mpd",
-                img: "https://i.imgur.com/eaUHjP6.png",
-                name: "NICK JR.",
-                key: "bab5c11178b646749fbae87962bf5113:0ac679aad3b9d619ac39ad634ec76bc8"
             },
             {
                 src: "https://tr.live.cdn.cgates.lt/live/dash/561208/index.mpd",
@@ -691,22 +505,6 @@
                 src: "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/chunklist_b2000000.m3u8",
                 img: "https://i.imgur.com/xhmWQXs.png",
                 name: "PBS KIDS"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_moonbug_kids_sd.mpd",
-                img: "https://i.imgur.com/v4ZYiUL.png",
-                name: "MOONBUG",
-                key: "0bf00921bec94a65a124fba1ef52b1cd:0f1488487cbe05e2badc3db53ae0f29f"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/134/indikids/playlist.m3u8",
-                img: "https://i.imgur.com/nMwW8Ii.png",
-                name: "FUN PLANET"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/130/horee/playlist.m3u8",
-                img: "https://i.imgur.com/81fqX1m.png",
-                name: "HOREE!"
             },
             {
                 src: "https://dmr1h4skdal9h.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-msbj6srh7nhug/ce36558b-b031-4284-94be-91ed22d31a41/2.m3u8",
@@ -732,48 +530,6 @@
                 key: "f36eed9e95f140fabbc88a08abbeafff:0125600d0eb13359c28bdab4a2ebe75a"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_tapsports.mpd",
-                img: "https://i.imgur.com/aeRpXyj.png",
-                name: "TAP SPORTS",
-                key: "eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_premiersports_hd1.mpd",
-                img: "https://i.imgur.com/QWunFo1.png",
-                name: "PREMIER SPORTS",
-                key: "fc19c98cb9504a0fb78b22fea0a4b814:ea683112a96d4ae6c32d4ea13923e8c7"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_premiertennishd.mpd",
-                img: "https://i.imgur.com/CGEYT3y.png",
-                name: "PREMIER SPORTS 2",
-                key: "59454adb530b4e0784eae62735f9d850:61100d0b8c4dd13e4eb8b4851ba192cc"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_spotvhd.mpd",
-                img: "https://i.imgur.com/E9WTTwg.png",
-                name: "SPOTV",
-                key: "ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e"
-            },
-            {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
-                img: "https://i.imgur.com/ymGJTxi.png",
-                name: "SPOTV2",
-                key: "7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/eurosport_1_hd/dash_live_enc/eurosport_1_hd.mpd",
-                img: "https://i.imgur.com/8KCZ2Gy.png",
-                name: "EUROSPORT 1",
-                key: "237be8ca9383755e9f5784dd23f545eb:15a723773c3b3cbce295c0aed0bc71c3"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/eurosport_2_hd/dash_live_enc/eurosport_2_hd.mpd",
-                img: "https://i.imgur.com/Mja3gfp.png",
-                name: "EUROSPORT 2",
-                key: "15382879a9bcfa6f1a04a86d5b4324e9:664241133368ab039dc1fb15206ba54b"
-            },
-            {
                 src: "https://unifi-live07.secureswiftcontent.com/UnifiHD/live11.mpd",
                 img: "https://i.imgur.com/lCZSIul.png",
                 name: "UNIFI SPORTS"
@@ -783,29 +539,6 @@
                 img: "https://i.imgur.com/5ZYUPx3.png",
                 name: "FAST AND FUN BOX",
                 key: "b6bd9264f24444c9a1bea842ba0bc33d:00c737b67ab210796510463a99b0b00d"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/133/paramount/playlist.m3u8",
-                img: "https://i.imgur.com/LUm5esA.png",
-                name: "FIGHT SPORTS"
-            },
-            {
-                src: "https://cdnlb.tvplayhome.lt/live/eds/TV3_Sport_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport_HD_HVC.mpd",
-                img: "https://i.imgur.com/8HRxNzz.png",
-                name: "GO3 SPORTS 1",
-                key: "610ad79e26a84fc782c987455e21a86b:d2d4acc6e79447b55f3f5c0267af06f5"
-            },
-            {
-                src: "https://cdnlb.tvplayhome.lt/live/eds/TV3_Sport2_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport2_HD_HVC.mpd",
-                img: "https://i.imgur.com/vAOAyhj.png",
-                name: "GO3 SPORTS 2",
-                key: "3fc5ce88ae24460bafa447b53ab5f548:476a55ef72c5e27e310668b1667da615"
-            },
-            {
-                src: "https://cdnlb.tvplayhome.lt/live/eds/TV3_Sport3_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport3_HD_HVC.mpd",
-                img: "https://i.imgur.com/OdyD85P.png",
-                name: "GO3 SPORTS 3",
-                key: "a2a75672057f462089c2849b8184fcb0:94899cace4911c617c27d8f878de2b43"
             },
             {
                 src: "https://tr.live.cdn.cgates.lt/live/dash/561002/index.mpd",
@@ -825,19 +558,9 @@
                 name: "TRACE SPORT STARS"
             },
             {
-                src: "https://cdn09jtedge.indihometv.com/joss/133/nba/index.m3u8",
-                img: "https://i.imgur.com/CIBoLmB.png",
-                name: "W-SPORT"
-            },
-            {
                 src: "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreamiptv.m3u8",
                 img: "https://logos-download.com/wp-content/uploads/2016/09/Red_Bull_TV_logo.png",
                 name: "RED BULL TV"
-            },
-            {
-                src: "https://eyeonesports.com/ES2RA-628g.m3u8",
-                img: "https://i.imgur.com/P8e2lWb.png",
-                name: "ESR"
             },
             {
                 src: "https://9769bd6405b245ea9adca1889a0b491b.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-in_BilliardTV/playlist.m3u8",

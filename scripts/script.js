@@ -142,22 +142,10 @@
                 key: "0559c95496d44fadb94105b9176c3579:40d8bb2a46ffd03540e0c6210ece57ce"
             },
             {
-                src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_mptv.mpd",
-                img: "https://i.imgur.com/BMCnoRn.png",
-                name: "MEDIA PILIPINAS TV",
-                key: "6aab8f40536f4ea98e7c97b8f3aa7d4e:139aa5a55ade471faaddacc4f4de8807"
-            },
-            {
                 src: "https://qp-pldt-live-grp-14-prod.akamaized.net/out/u/cg_ptv4_sd.mpd",
                 img: "https://i.imgur.com/ycPz1Uc.png",
                 name: "PEOPLE'S TELEVISION",
                 key: "71a130a851b9484bb47141c8966fb4a3:ad1f003b4f0b31b75ea4593844435600"
-            },
-            {
-                src: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd",
-                img: "https://i.imgur.com/PwFOHQb.png",
-                name: "IBC 13",
-                key: "04e292bc99bd4ccba89e778651914254:ff0a62bdf8920ce453fe680330b563a5"
             },
             {
                 src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/bilyonaryoch.mpd",
@@ -194,12 +182,6 @@
                 img: "https://i.imgur.com/UIqEr2y.png",
                 name: "KNOWLEDGE CH",
                 key: "0f856fa0412b11edb8780242ac120002:783374273ef97ad3bc992c1d63e091e7"
-            },
-            {
-                src: "https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd",
-                img: "https://i.imgur.com/IA7tK2B.png",
-                name: "GMA PINOY TV",
-                key: "c95ed4c44b0b4f7fa1c6ebbbbaab21a1:47635b8e885e19f2ccbdff078c207058"
             },
             {
                 src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd",
@@ -248,12 +230,6 @@
                 img: "https://i.imgur.com/ZbrvQpg.png",
                 name: "TAGALIZED MOVIE CHANNEL",
                 key: "96701d297d1241e492d41c397631d857:ca2931211c1a261f082a3a2c4fd9f91b"
-            },
-            {
-                src: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnmovie.mpd",
-                img: "https://i.imgur.com/e9vo9Z8.png",
-                name: "TVN MOVIES PINOY",
-                key: "2e53f8d8a5e94bca8f9a1e16ce67df33:3471b2464b5c7b033a03bb8307d9fa35"
             },
             {
                 src: "https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd",
@@ -343,12 +319,6 @@
                 key: "928114ffb2394d14b5585258f70ed183:a82edc340bc73447bac16cdfed0a4c62"
             },
             {
-                src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_hbohd.mpd",
-                img: "https://i.imgur.com/fHBIgs6.png",
-                name: "HBO",
-                key: "d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b"
-            },
-            {
                 src: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/cg_cinemax.mpd",
                 img: "https://i.imgur.com/YomkvVa.png",
                 name: "CINEMAX",
@@ -398,56 +368,10 @@
                 key: "dac605bc197e442c93f4f08595a95100:975e27ffc1b7949721ee3ccb4b7fd3e5"
             },
             {
-                src: "https://streaming.indihometv.com/joss/133/hitsmovie/playlist.m3u8",
-                img: "https://i.imgur.com/1rG3el2.png",
-                name: "HITS MOVIES"
-            },
-            {
                 src: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd",
                 img: "https://i.imgur.com/S3pNx8Gl.png",
                 name: "HITS NOW",
 		key: "14439a1b7afc4527bb0ebc51cf11cbc1:92b0287c7042f271b266cc11ab7541f1"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/comedy_central/dash_live_enc/comedy_central.mpd",
-                img: "https://i.imgur.com/32XV9vn.png",
-                name: "COMEDY CENTRAL",
-                key: "f8757de5a495ce5db4893c2eefc11e58:d8309cd9fa8c286f277b4cb9841d7bd2"
-            },
-            {
-                src: "https://fl2.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8",
-                img: "https://i.imgur.com/fxwLZXp.png",
-                name: "PARAMOUNT NETWORK"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/amc_hd/dash_live_enc/amc_hd.mpd",
-                img: "https://i.imgur.com/PQGEkPM.png",
-                name: "AMC",
-                key: "ffec3dec40cb61a45e969c84977615ef:c6fbbe1e506a4323d3046b30731c9d52"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/sundance_hd/dash_live_enc/sundance_hd.mpd",
-                img: "https://i.imgur.com/dfTesaD.png",
-                name: "SUNDANCE TV",
-                key: "7107df0ecf168438df3d5e35a06f5e8b:1541c20a7dc82b302ec9b97274910162"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/DARK_HD/dash_live_enc/DARK_HD.mpd",
-                img: "https://i.imgur.com/bdLVFSx.png",
-                name: "DARK",
-                key: "ee3899fcba09e6de20355394106ca745:d84b6489ff8e5aeecde84a659c0617b8"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/xtrm_hd/dash_live_enc/xtrm_hd.mpd",
-                img: "https://tvprofil.com/img/kanali-logo/XTRM_ES_logo_v2.png",
-                name: "XTRM",
-                key: "563e6e1367e0c8c0f6643cf0ae92c4e7:7a84ece91b690c5b717eeffd58a55b04"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/hollywood_hd/dash_live_enc/hollywood_hd.mpd",
-                img: "https://i.imgur.com/q7xVRtE.png",
-                name: "HOLLYWOOD",
-                key: "38b0a87ba1614db52f1520191282a0db:af101261419cdcf7c09b82592eac862a"
             },
             {
                 src: "https://uselector.cdn.intigral-ott.net/TCM/TCM.isml/manifest.mpd",

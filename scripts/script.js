@@ -106,14 +106,10 @@
                 key: "2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d"
             },
             {
-                src: "http://ott.udptv.net/stream/iptv/gma/master.m3u8?u=civ3&p=673b29c3c96ef6b81971b748cdf0e46d531b3c6690c885706e02b469ba8b14ca",
-                img: "https://th.bing.com/th/id/OIP.aWHBusnumCQ8MKT_r2jXFAHaFj?rs=1&pid=ImgDetMain",
-                name: "GMA",
-	    },
-            {
-                src: "http://cord-cutter.net:8080/220726268/220726268/101826",
-                img: "http://logo.protv.cc/picons/logos/gma_pinoytv.png",
-                name: "GMA PINOY TV"
+                src: "https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd",
+                img: "https://i.imgur.com/IA7tK2B.png",
+                name: "GMA PINOY TV",
+	        key: "c95ed4c44b0b4f7fa1c6ebbbbaab21a1:47635b8e885e19f2ccbdff078c207058"
             }, 
 	    {
                 src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd",
@@ -206,20 +202,10 @@
                 key: "c95ed4c44b0b4f7fa1c6ebbbbaab21a1:47635b8e885e19f2ccbdff078c207058"
             },
             {
-                src: "https://jungotvstream.chanall.tv/jungotv/jungopinoytv/stream.m3u8",
-                img: "https://i.imgur.com/FjAjdL0.png",
-                name: "JUNGO PINOY TV"
-            },
-            {
                 src: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd",
                 img: "https://tapdmv.ovationproductionsmanila.com/logo-TapActionFlix-2021-B.png",
                 name: "TAP ACTION FLIX",
 		key: "bee1066160c0424696d9bf99ca0645e3:f5b72bf3b89b9848de5616f37de040b7"
-            },
-            {
-                src: "https://jungotvstream.chanall.tv/jungotv/hallypop/stream.m3u8",
-                img: "https://i.imgur.com/gYYYebi.png",
-                name: "HALLYPOP"
             },
             {
                 src: "https://d24xfhmhdb6r0q.cloudfront.net/out/v1/e897a7b6414a46019818ee9f2c081c4f/index.mpd",
@@ -304,11 +290,6 @@
                 key: "900c43f0e02742dd854148b7a75abbec:da315cca7f2902b4de23199718ed7e90"
             },
             {
-                src: "https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8",
-                img: "",
-                name: "CNBC"
-            },
-            {
                 src: "https://1a-1791.com/live/hr6yv36f/slot-4/mxtm-wdfe_360p/chunklist_DVR.m3u8",
                 img: "https://i.imgur.com/8p0dh0V.png",
                 name: "SKY NEWS"
@@ -317,11 +298,6 @@
                 src: "https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8",
                 img: "https://i.imgur.com/ASuVFay.png",
                 name: "BBC NEWS"
-            },
-            {
-                src: "https://cdn09jtedge.indihometv.com/joss/134/euronews/index.m3u8",
-                img: "",
-                name: "EURONEWS"
             },
             {
                 src: "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
@@ -397,16 +373,6 @@
                 key: "872910c843294319800d85f9a0940607:f79fd895b79c590708cf5e8b5c6263be"
             },
             {
-                src: "https://streaming.indihometv.com/atm/hlsv3/rock_entertainment/playlist.m3u8",
-                img: "",
-                name: "ROCK ENTERTAINMENT"
-            },
-            {
-                src: "https://streaming.indihometv.com/atm/hlsv3/ROCK_ACTION/playlist.m3u8",
-                img: "",
-                name: "ROCK ACITON"
-            },
-            {
                 src: "https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/cg_axn_sd.mpd",
                 img: "https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png",
                 name: "AXN",
@@ -414,33 +380,10 @@
 		    
             },
             {
-                src: "https://ott.zapitv.com/live/eds_c2/axn_white/dash_live_enc/axn_white.mpd",
-                img: "",
-                name: "AXN MOVIES",
-                key: "f9e4be09926c262effa2b5381ae3553d:d630e04e0c5e3f98dc38840be1c1dd4c"
-            },
-            {
                 src: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd",
                 img: "https://i.imgur.com/Hy26eiy.png",
                 name: "WARNER TV",
                 key: "4503cf86bca3494ab95a77ed913619a0:afc9c8f627fb3fb255dee8e3b0fe1d71"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/calle_13/dash_live_enc/calle_13.mpd",
-                img: "",
-                name: "CALLE 13",
-                key: "6ae50bb56203f2f3875e3ee78efab1a5:f22429107ea7806f54902bb2926c8872"
-            },
-            {
-                src: "https://ott.zapitv.com/live/eds_c2/syfy/dash_live_enc/syfy.mpd",
-                img: "",
-                name: "SYFY",
-                key: "95ec1e26e80c38258a30101d06c8cbf7:0d0df5189256c0bf32c0cd0976bac5bd"
-            },
-            {
-                src: "https://streaming.indihometv.com/joss/130/studiouniversal/playlist.m3u8",
-                img: "",
-                name: "STUDIO UNIVERSAL"
             },
             {
                 src: "https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd",
